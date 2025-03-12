@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"01.index/","title":"Sobre Mim","text":""},{"location":"02.treinamentos/","title":"Treinamentos","text":""},{"location":"03.python/","title":"Python","text":"<p>git</p>"}]}
