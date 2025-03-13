@@ -1,4 +1,39 @@
 site_name: João Vitor Luz
 site_url: https://vitorluzz.github.io
+copyright: Copyright &copy; 2025 - João Vitor Luz Campos
+
+
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  features:
+    - header.autohide
+    - navigation.footer
+
+
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: slate
+      primary: orange
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: default
+      primary: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+extra:
+    generator: false
+    social:
+      - icon: fontawesome/brands/linkedin
+        link: https://www.linkedin.com/in/jo%C3%A3o-vitor-luz-6b2109340/
+        name: Linkedin
+      - icon: fontawesome/brands/github
+        link: https://github.com/vitorluzz
+        name: GitHub
+
