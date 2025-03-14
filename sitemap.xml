@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://vitorluzz.github.io/01.index/</loc>
-         <lastmod>2025-03-12</lastmod>
+         <loc>https://vitorluzz.github.io/</loc>
+         <lastmod>2025-03-14</lastmod>
     </url>
     <url>
-         <loc>https://vitorluzz.github.io/02.treinamentos/</loc>
-         <lastmod>2025-03-12</lastmod>
+         <loc>https://vitorluzz.github.io/01.treinamentos/</loc>
+         <lastmod>2025-03-14</lastmod>
+    </url>
+    <url>
+         <loc>https://vitorluzz.github.io/02.engenhariadedados/</loc>
+         <lastmod>2025-03-14</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/03.python/</loc>
-         <lastmod>2025-03-12</lastmod>
+         <lastmod>2025-03-14</lastmod>
     </url>
 </urlset>
