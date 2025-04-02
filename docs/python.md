@@ -1,4 +1,4 @@
-# **Python**
+# **Conceitos Básicos - Python**
 ## **Primeiros Exemplo**
 
 ```python
@@ -14,44 +14,57 @@ print('Primeiro programa')
 ## **TIPOS**
 ### **Tipos Básicos!**
 
-```python
-print(True)
-print(False)
-# no python o valor quebrado é float
-print(1.2 + 1)
-print('texto')
-print("texto")
-print('você é ' + 3 * 'muito ' + 'legal!')
-#! print(3 + '3') --> ambiguidade
-print([1,2,3,4]) #lista - array json
-print({'nome': 'João', 'idade': '20'}) #dicionario - objeto json
 ```
+python
+
+print(True)   # Booleano (Verdadeiro)
+print(False)  # Booleano (Falso)
+print(1.2 + 1)  # Número decimal (float)
+print("Texto")  # String
+print('Você é ' + 3 * 'muito ' + 'legal!')  # Concatenação de strings
+```
+
+📌 Python é uma linguagem dinamicamente tipada, ou seja, você não precisa declarar o tipo de uma variável explicitamente.
+
 <br>
 <br>
 
 ### **Váriaveis**
+As variáveis armazenam valores e podem ser utilizadas ao longo do código:
+```
+python
 
-```python
 a = 10
 b = 5.2
 
-print(a+b)
+print(a + b)  # Soma dos valores
+```
+```
+out: 15.2
 ```
 
 ### **Listas**
 
 Listas são coleções ordenadas de elementos.
 
-```python
+```
+python
+
 numeros = [1, 2, 3, 4, 5]
 print(numeros[0])  # Primeiro elemento -> 1
 ```
+```
+out: 1
+```
 
 Manipulação de listas:
-
+As listas são coleções ordenadas e mutáveis.
 ```python
 numeros.append(6)  # Adiciona o número 6
 print(numeros)
+```
+```
+out: [1,2,3,4,5,6]
 ```
 <br>
 <br>
@@ -60,18 +73,28 @@ print(numeros)
 
 Dicionários armazenam pares de chave-valor.
 
-```python
-pessoa = {"nome": "João", "idade": 30}
-print(pessoa["nome"])  # João
 ```
+python
+
+pessoa = {"nome": "João", "idade": 20}
+print(pessoa["nome"])  
+```
+```
+out: ["João"]
+```
+<br>
 
 Adicionando novos valores:
 
-```python
+```
+python
+
 pessoa["cidade"] = "São Paulo"
 print(pessoa)
 ```
-
+```
+out: {"nome": "João", "idade": 20, "cidade": "São Paulo"}
+```
 <br>
 <br>
 
@@ -79,12 +102,16 @@ print(pessoa)
 
 Conjuntos armazenam elementos únicos e não ordenados.
 
-```python
+```
+python
+
 numeros = {1, 2, 3, 4, 5}
 numeros.add(6)
 print(numeros)
 ```
-
+```
+out: {1,2,3,4,5,6}
+```
 <br>
 <br>
 
@@ -92,30 +119,34 @@ print(numeros)
 
 Tuplas são similares a listas, mas são imutáveis.
 
-```python
+```
+python
+
 tupla = (1, 2, 3)
-print(tupla[0])  # 1
+print(tupla[0])  
+```
+```
+out: 1
 ```
 
 <br>
 <br>
 
 ## **Comentários**
+Comentários são trechos de código ignorados pelo interpretador.
+```
+python
 
-```python
-# minhas váriaveis
+# Variáveis de exemplo
 salario = 3450.45
 despesas = 2456
 
 """
-A ideia é calcular
-as despesas
-e quanto irá sobrar
+Este é um comentário de várias linhas.
+Aqui podemos documentar o código de forma mais detalhada.
 """
 
-print(salario - despesas)
-
-print('Fim!') # comentário aqui vale também!
+print("Chegou ao Fim!")
 ```
 <br>
 <br>
@@ -123,18 +154,16 @@ print('Fim!') # comentário aqui vale também!
 ## **OPERADORES**
 ### **Operadores Aritméticos**
 
-```python
-print(2+3)
-print(4-7)
-print(2 * 5.3)
-print(9.4/3)
-print(9.4//3)
-print(2**8)
-print(10%8)
+```
+python
 
-a = 12
-b = a
-print(a+b)
+print(2 + 3)  # Soma
+print(4 - 7)  # Subtração
+print(2 * 5.3)  # Multiplicação
+print(9.4 / 3)  # Divisão
+print(9.4 // 3)  # Divisão inteira
+print(2 ** 8)  # Exponenciação
+print(10 % 8)  # Módulo (resto da divisão)
 ```
 
 <br>
@@ -144,7 +173,9 @@ print(a+b)
 
 Os operadores de comparação são usados para comparar valores.
 
-```python
+```
+python
+
 x = 10
 y = 5
 
@@ -163,18 +194,15 @@ print(x <= y)  # Menor ou igual a -> False
 
 Os operadores lógicos são usados para combinar expressões booleanas.
 
-```python
+```
+python
+
 cond1 = True
 cond2 = False
 
-# Operador AND
-print(cond1 and cond2)  # False
-
-# Operador OR
-print(cond1 or cond2)   # True
-
-# Operador NOT
-print(not cond1)        # False
+print(cond1 and cond2)  # AND -> False
+print(cond1 or cond2)   # OR -> True
+print(not cond1)        # NOT -> False
 ```
 
 <br>
@@ -185,17 +213,25 @@ print(not cond1)        # False
 
 As estruturas condicionais permitem que o código tome decisões com base em condições.
 
-```python
+```
+python
+
 idade = 18
 if idade >= 18:
     print("Maior de idade")
 else:
     print("Menor de idade")
 ```
+```
+out: "Maior de idade"
+```
+<br>
 
 Também podemos usar a estrutura `elif` para múltiplas condições:
 
-```python
+```
+python
+
 nota = 7
 if nota >= 9:
     print("Excelente")
@@ -205,6 +241,9 @@ elif nota >= 5:
     print("Regular")
 else:
     print("Reprovado")
+```
+```
+out: "Bom"
 ```
 
 <br>
@@ -224,9 +263,14 @@ for i in range(5):  # Itera de 0 a 4
 Percorrendo listas:
 
 ```python
-nomes = ["Alice", "Bob", "Charlie"]
+nomes = ["Alpha", "Bravo", "Charlie"]
 for nome in nomes:
     print(nome)
+```
+```
+out:    Alpha
+        Bravo
+        Charlie 
 ```
 
 <br>
@@ -234,11 +278,20 @@ for nome in nomes:
 
 #### **Loop `while`**
 
-```python
+```
+python
+
 contador = 0
 while contador < 5:
     print(contador)
     contador += 1
+```
+```
+out: 0
+     1
+     2
+     3
+     4
 ```
 
 <br>
@@ -248,20 +301,32 @@ while contador < 5:
 
 As funções permitem reutilizar blocos de código.
 
-```python
+```
+python
+
 def saudacao(nome):
     return f"Olá, {nome}!"
 
-print(saudacao("Maria"))
+print(saudacao("Camila"))
 ```
+```
+out: "Olá, Camila!"
+```
+
+<br>
 
 Função com múltiplos argumentos:
 
-```python
+```
+python
+
 def soma(a, b):
     return a + b
 
-print(soma(3, 4))  # Resultado: 7
+print(soma(3, 4)) 
+```
+```
+out: 7
 ```
 <br>
 <br>
@@ -269,19 +334,27 @@ print(soma(3, 4))  # Resultado: 7
 
 ## **Manipulação de Strings**
 
-```python
+```
+python
+
 texto = "Python é incrível!"
 print(texto.upper())  # Transforma em maiúsculas
 print(texto.lower())  # Transforma em minúsculas
 print(texto.split())  # Divide a string em uma lista
 ```
-
+```
+out: PYTHON É INCRÍVEL!
+     python é incrível!
+     ['Python', 'é', 'incrível!']
+```
 <br>
 <br>
 
 ## **Entrada e Saída**
 
-```python
+```
+python
+
 nome = input("Digite seu nome: ")
 print(f"Bem-vindo, {nome}!")
 ```
@@ -291,29 +364,15 @@ print(f"Bem-vindo, {nome}!")
 
 ## **Tratamento de Exceções**
 
-```python
+```
+python
+
 try:
     resultado = 10 / 0
 except ZeroDivisionError:
     print("Erro: divisão por zero não permitida")
 ```
-
-<br>
-<br>
-
-## **Programação Orientada a Objetos (POO)**
-
-```python
-class Pessoa:
-    def __init__(self, nome, idade):
-        self.nome = nome
-        self.idade = idade
-
-    def saudacao(self):
-        return f"Olá, meu nome é {self.nome} e tenho {self.idade} anos."
-
-p = Pessoa("Carlos", 25)
-print(p.saudacao())
+```
+out: "Erro: divisão por zero não permitida"
 ```
 
----

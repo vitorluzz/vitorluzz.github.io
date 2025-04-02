@@ -37,3 +37,61 @@ extra:
         link: https://github.com/vitorluzz
         name: GitHub
 
+nav:
+  - 🏠 Home: index.md
+  -  Introdução:
+      - "Sobre mim": sobre.md
+      - "Objetivos": objetivos.md
+      - "📚 Treinamentos": treinamentos.md
+  - 💻 Engenharia de Dados:
+      - "📌 Conceitos básicos": oqeengenharia.md
+      - "🚀 Pipeline de Dados": pipelinedados.md
+      - "💾 Armazenamento de Dados": armazenamentodados.md
+      - "🌍 Sistemas Distribuídos": sistemasdistribuidos.md
+      - "🏗️ Data Warehouse, Data Lake e Data Lakehouse": tiposbd.md
+      - "📊 Modelagem de Dados": modelagemdados.md
+      - "✅ Data Quality": data_quality.md
+      - "🛠️ Data Ops / Dev Ops": dataops.md
+      - "🔍 Data Observability": dataobservar.md
+      
+  - "🐍 Python":
+      - "📌 Fundamentos Python":
+          - "Conceitos Básicos": conceitosbasicospy.md
+          - "Primeiros Passos": python.md
+      - "📦 Orientação a Objeto (POO)": poo.md
+      - "🔢 Numpy": 
+          - "Primeiros Passos": comeconumpy.md
+          - "Indexação em Arrays": indexacaonumpy.md
+          - "Manipulando Matrizes": manipulandomatriz.md
+          - "Manipulando Objetos 3D e 4D": manipulandoobjetos.md
+          - "Manipulando Arquivos": manipulandoarquivosnumpy.md
+          - "Análise Estatística": analiseestatisticanumpy.md
+          - "Operações Matemáticas": operacoesmatematicas.md
+          - "Manipulação Arrays": manipulandoarrays.md
+      - "📊 Pandas": 
+          - "Primeiros Passos": pandas.md
+          - "Manipulando DataFrames": manipulandodataframe.md
+          - "Utilizando NumPy com Pandas": numpycompandas.md
+          - "Fatiamento de DataFrame (Slicing)": fatiamentodataframe.md
+          - "Manipulando Valores Ausentes": valoresausentes.md
+          - "Query's em DataFrame Pandas": querypandas.md
+          - "Verificando Ocorrências de Valores": verificandoocorrencias.md
+          - "Operadores Lógicos": operadoreslogicos.md
+          - "Agrupamento de Dados com GroupBy": agrupandodados.md
+          - "Filtrando com Strings": filtrandostring.md
+          - "Slipt de Strings": splitstrings.md
+          - "Strip em DFs": stripdf.md
+          - "Replace de Strings": replacedf.md
+          - "Combinação de Strings": combinacaodf.md
+          - "Construção de Gráficos com Pandas": graficopandas.md
+      - "📈 MatPlotLib e SeaBorn": 
+          - "Por que utilizar?": mtpl_sb.md
+          - "MatPlotLib": mtpl.md
+          - "PyLab": pylab.md
+          - "SeaBorn": seaborn.md
+          - "Combinando MTPL, SB, PD, NP na criação de gráficos": combinando.md
+      - "🔍 SQL":
+          - "Conceitos básicos": sql.md
+          - "Utilizando Python para trabalhar com Linguagem SQL": pythonsql.md
+          - "Utilizando o Pandas para trabalhar com Linguagem SQL": pandassql.md
+          - "Sintaxe SQL X Sintaxe Pandas": sintaxepysql.md
