@@ -1,5 +1,7 @@
 # 🚀 Trilha de Desenvolvimento  
 
+## 🎓 Formação Acadêmica  
+- ⏳ [**Tecnólogo em Análise e Desenvolvimento de Sistemas**](https://www.sptech.school/)
 ## 🏗️ Engenharia de Dados  
 - ✅ [**Fundamentos da Engenharia de Dados - Data Science Academy**](https://www.datascienceacademy.com.br/course/fundamentos-de-engenharia-de-dados)  
 - ✅ [**Big Data - Workover**](https://workover.com.br/cursos/61/big-data)  
