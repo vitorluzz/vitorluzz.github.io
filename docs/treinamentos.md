@@ -1,16 +1,18 @@
-# Trilha de Desenvolvimento
+# 🚀 Trilha de Desenvolvimento  
 
+## 🏗️ Engenharia de Dados  
+- ✅ [**Fundamentos da Engenharia de Dados - Data Science Academy**](https://www.datascienceacademy.com.br/course/fundamentos-de-engenharia-de-dados)  
+- ✅ [**Big Data - Workover**](https://workover.com.br/cursos/61/big-data)  
+- ✅ [**Databricks Fundamentals - DataBricks**](https://customer-academy.databricks.com/learn/learning-plans/215/databricks-fundamentals-learning-plan)  
+<!-- - ⬜ [**Big Data - IBM**](https://cognitiveclass.ai/learn/big-data-ibm) (Em andamento) -->  
 
-## Engenharia de Dados
+## 🐍 Python  
+- ✅ [**Python 3 - COD3R**](https://www.cod3r.com.br/courses/take/python-3-curso-rapido/lessons/12690034-introducao-do-curso)  
+- ✅ [**Fundamentos de Python para Análise de Dados e Data Science - Data Science Academy**](https://www.datascienceacademy.com.br/cursosgratuitos)  
 
-- [X] [Fundamentos da Engenharia de Dados - DSA](https://www.datascienceacademy.com.br/course/fundamentos-de-engenharia-de-dados) 
-- [X] [Big Data - Workover](https://workover.com.br/cursos/61/big-data)
-- [ ]   [Big Data - IBM](https://cognitiveclass.ai/learn/big-data-ibm)
+## 💻 Desenvolvimento  
+- ✅ [**Formação de Desenvolvedor Front-End - Vai na Web**](https://vainaweb.com.br/carreiras)  
+- ✅ [**Git e GitHub - Wokorver**](https://workover.com.br/cursos/167/git-github) 
 
-## Python
-
-- [X]  [Python3 - COD3R](https://www.cod3r.com.br/courses/take/python-3-curso-rapido/lessons/12690034-introducao-do-curso)
-
-## Agilidade
-
-- [X] [Fundamentos do Scrum](https://www.aprendascrum.com.br/products/registered-scrum-basic/categories/2154617530/posts/2174624511)
+## ⚡ Agilidade  
+- ✅ [**Fundamentos do Scrum - ScrumLab**](https://www.aprendascrum.com.br/products/registered-scrum-basic/categories/2154617530/posts/2174624511)  

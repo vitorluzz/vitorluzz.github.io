@@ -38,12 +38,11 @@ extra:
         name: GitHub
 
 nav:
-  - 🏠 Home: index.md
-  -  Introdução:
-      - "Sobre mim": sobre.md
-      - "Objetivos": objetivos.md
+  - "🏠 Home": index.md
+  -  "📖 Introdução":
+      - "👤 Sobre mim": sobre.md
       - "📚 Treinamentos": treinamentos.md
-  - 💻 Engenharia de Dados:
+  - "💻 Engenharia de Dados":
       - "📌 Conceitos básicos": oqeengenharia.md
       - "🚀 Pipeline de Dados": pipelinedados.md
       - "💾 Armazenamento de Dados": armazenamentodados.md
