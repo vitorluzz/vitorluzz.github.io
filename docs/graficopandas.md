@@ -10,6 +10,7 @@ python
 
 !pip install scikit-learn==1.2.1
 ```
+***
 
 Importando o Scikit
 ```
@@ -23,6 +24,7 @@ sklearn.__version__
 out: '1.2.1'
 ```
 <br>
+***
 
 Vamos começar importando o dataset iris do scikit-learn
 ```
@@ -31,6 +33,7 @@ python
 from sklearn.datasets import load_iris
 data = load_iris()
 ```
+***
 
 Então carregamos o dataset iris como um dataframe do Pandas
 ```
@@ -112,6 +115,7 @@ out:
 </div>
 
 <br>
+***
 
 Plotando o DF como um gráfico
 ```
@@ -125,6 +129,7 @@ out:
     
 
 <br>
+***
 
 
 Vamos fazer um gráfico de dispersão entre duas variáveis
@@ -137,6 +142,7 @@ out:
 
 <img src="../assets/5961c5ce-598c-41d6-91de-004fd9fe66f1.png" alt="imagem_numpy_grafico_dispersao" style='width: 400px;'>
 
+***
     
 
 <br>
@@ -159,6 +165,7 @@ out:
     
 
 <br>
+***
 
 Criando um gráfico de barras com a média de algumas colunas:
 ```
@@ -173,6 +180,7 @@ out:
 
     
 <br>
+***
 
 Ou então, podemos fazer a contagem das classes da coluna species e plotamos em um gráfico de pizza
 ```
@@ -187,6 +195,7 @@ out:
 
     
 <br>
+***
 
 Criando um gráfico KDE para cada variável do DF
 ```
@@ -199,6 +208,7 @@ out:
 
 
 <img src="../assets/98e6bad8-73f8-46c1-9a4c-5d3dec3567c0.png" alt="imagem_numpy_grafico_dispersao" style='width: 400px;'>
+***
     
     
 <br>

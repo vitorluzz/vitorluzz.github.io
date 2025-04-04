@@ -18,6 +18,7 @@ out: 54.0
 ```
 
 
+***
 ㅤ
 
 ### Calcular Desvio Padrão (Standard Deviation)
@@ -35,6 +36,7 @@ out: 30.34468652004828
 ```
 
 
+***
 ㅤ
 
 ### Variância

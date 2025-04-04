@@ -116,6 +116,7 @@ out:
 </div>
 
 <br>
+***
 
 buscando todas as strings, da coluna segmento, que começa com as letras 'Con'
 ```
@@ -231,6 +232,7 @@ out:
 </div>
 
 <br>
+***
 
 buscando todas as strings, da coluna segmento, que termina com as letras 'mer'
 ```

@@ -23,6 +23,7 @@ out:
     Name: Valor_Venda, dtype: float64
 ```
 <br>
+***
 
 Criando um novo DF com o intervalo de vendas entre 229 e 10000
 ```
@@ -30,7 +31,7 @@ python
 
 df2 = df3.query('229 < Valor_Venda < 10000')
 ```
-
+***
 Utilizando o describe no novo DF criado
 ```
 python
@@ -52,6 +53,7 @@ out:
 ```
 Podemos ver que a média de valores é 766
 <br>
+***
 
 Criando um novo dataframe com os valores acima da média!
 ```
@@ -59,6 +61,7 @@ python
 
 df4 = df3.query('Valor_Venda > 766')
 ```
+***
 Visualizando o DF criado
 ```
 python
@@ -173,3 +176,4 @@ out:
 </div>
 
 <br>
+***

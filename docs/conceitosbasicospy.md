@@ -18,6 +18,8 @@ A linguagem Python é uma linguagem **interpretada**, ou seja, precisamos de um 
 
 - **Tipagem Dinâmica** 🔍  
   Diferente de linguagens como Java, em Python não é necessário declarar o tipo das variáveis explicitamente.
+  
+***
 
 ## 🔥 Primeiro Código em Python
 

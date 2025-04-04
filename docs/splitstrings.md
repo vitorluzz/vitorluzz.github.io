@@ -21,6 +21,7 @@ Essa coluna de Id, nos retorna: o País, o ano e o ID do pedido, vamos extrair e
 
 <br>
 
+***
 Separando os dados dos ID com base no '-'
 ```
 python
@@ -47,10 +48,12 @@ Ele está nos retornando uma lista em cada ID
 
 <br>
 
+***
 >*O Split ele divide os valores e nos retorna eles em uma lista por cada ID separadamente*
 
 <br>
 
+***
 Separando os dados, porém, retornando apenas o valor de índice 1, ou seja, o ano
 ```
 python
@@ -75,6 +78,7 @@ out:
 ```
 <br>
 
+***
 Agora, estamos fazendo o split, separando os valores e armazenando em uma coluna específica
 ```
 python
@@ -202,3 +206,5 @@ out:
 </div>
 
 <br>
+
+***

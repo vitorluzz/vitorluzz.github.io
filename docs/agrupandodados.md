@@ -98,6 +98,7 @@ out:
 >Ele nos retorna: Esse segmento, nas regiões, tem essa média POR REGIÃO!
 
 <br>
+***
 
 ### Agregação Múltipla com Group By
 

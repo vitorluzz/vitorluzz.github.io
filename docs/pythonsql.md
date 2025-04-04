@@ -19,6 +19,7 @@ print("A versão do pandas é: " + pd.__version__)
     A versão do pandas é: 1.5.3
 
 <br>
+***
 
 ### Conectando no Banco de Dados com Linguagem Python
 
@@ -30,6 +31,7 @@ python
 con = sqlite3.connect('cap12_dsa.db')
 ```
 <br>
+***
 
 
 Abrindo um cursor que irá percorrer os dados e as linhas no banco de dados
@@ -39,6 +41,7 @@ python
 cursor = con.cursor()
 ```
 <br>
+***
 
 APENAS criando a query de consulta
 ```
@@ -49,6 +52,7 @@ python
 sql_query  = """SELECT name FROM sqlite_master WHERE type = 'table';"""
 ```
 <br>
+***
 
 Executado a query de consulta
 ```
@@ -64,6 +68,7 @@ cursor.execute(sql_query)
 Ele nos retorna o objeto do cursor!
 
 <br>
+***
 
 Agora, vamos visualizar o que resultado da consulta, verificando o que o cursor encontrou dentro do BD
 ```
@@ -77,6 +82,7 @@ print(cursor.fetchall())
 
 
 <br>
+***
 
 Criando uma instrução SQL
 ```
@@ -101,6 +107,7 @@ cursor.execute(query1)
 
 
 <br>
+***
 
 Criando um List Comprehension afim de visualizarmos os nomes das colunas
 ```
@@ -111,6 +118,7 @@ nomes_colunas = [description[0] for description in cursor.description]
 ```
 
 <br>
+***
 
 Visualizando o nome das colunas
 ```
@@ -180,6 +188,7 @@ dados
      (500, 46, 'Produto_21', 82.81, 11, 49.69)]
 
 <br>
+***
 
 
 ### Aplicando Linguagem SQL direto no Banco de Dados com linguagem Python
@@ -194,6 +203,7 @@ python
 query3 = 'SELECT Nome_Produto as "Nome do Produto", AVG(Unidades_Vendidas) as "Média das Unidades" FROM tb_vendas_dsa GROUP BY Nome_Produto'
 ```
 <br>
+***
 
 Executando a instrução no BD
 ```
@@ -212,6 +222,7 @@ cursor.execute(query3)
 
 
 <br>
+***
 
 Visualizando o resultado da query
 ```
@@ -277,7 +288,10 @@ cursor.fetchall()
      ('Produto_9', 7.2)]
 
 <br>
+
 <br>
+
+***
 
 
 >A query abaixo retorna a média de unidades vendidas por produto **se** o valor unitárip for maior que 199:
@@ -313,6 +327,7 @@ cursor.execute(query4)
 
 
 <br>
+***
 
 Recebendo resultado do cursor
 ```
@@ -332,7 +347,10 @@ cursor.fetchall()
      ('Produto_39', 16.0)]
 
 <br>
+
 <br>
+
+***
 
 
 A query abaixo retorna a média de unidades vendidas por produto se o valor unitário for maior que 199 e somente se a média de unidades vendidas for maior que 10:
@@ -359,7 +377,10 @@ query5 = """
 > *ERRO*: USO INDEVIDO DA AGREGAÇÃO AVG()
 
 <br>
+
 <br>
+
+***
 
 A instrução SQL exige uma ordem de execução das cláusulas:
 
@@ -368,6 +389,7 @@ A instrução SQL exige uma ordem de execução das cláusulas:
 **EM SEGUIDA**, irá ser aplicado o *WHERE*, para buscar as colunas fazendo o agrupamento,
 
 <br>
+***
 
 Então, em qual momento ele irá aplicar o AVG? 
 
@@ -378,6 +400,7 @@ Na linha "AVG(Unidades_Vendidas) > 10" estamos tendando usar a média antes do g
 ele ainda não fez o agrupamento, então não podemos usar!
 
 <br>
+***
 
 FORMA CORRETA:
 ```
@@ -400,7 +423,10 @@ query5 = """
 A utilização da cláusula **HAVING** é usada para usar o filtro **DEPOIS do GROUP BY**
 
 <br>
+
 <br>
+
+***
 
 
 Executando a query
@@ -418,6 +444,7 @@ cursor.execute(query5)
 
 
 <br>
+***
 
 Visualizando os dados do cursor
 ```
@@ -433,6 +460,7 @@ cursor.fetchall()
 
 
 <br>
+***
 
 Fechando o cursor e encerrando a conexão com o banco de dados
 ```
@@ -455,4 +483,7 @@ con.close()
 >- Travar a conexão com o banco de dados.
 
 <br>
+
 <br>
+
+***

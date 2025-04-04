@@ -8,6 +8,7 @@ python
 df3 = pd.read_csv('dataset.csv')
 ```
 <br>
+***
 
 Exibindo os valores, mostrando o cabeçalho, filtrando mostrando os 5 primeiros valores
 ```
@@ -123,6 +124,7 @@ out:
 </div>
 
 <br>
+***
 
 Verificando se há valores ausentes e em qual coluna:
 ```
@@ -147,9 +149,10 @@ out:
     dtype: int64
 ```
 Se não houver valores ausentes, ele retornará zero, porém, se houver, ele retornará a quantidade de valores que estão faltando.
+
+
 <br>
-<br>
-<br>
+***
 
 >  **MODA**
 >
@@ -168,6 +171,7 @@ print(moda)
 out: 3.0 
 ```
 <br>
+***
 
 Preenchendo os valores vazios com o valor da moda
 ```
@@ -205,3 +209,4 @@ out:
 
 >O nome dessa prática se chama **INTERPOLAÇÃO**! Quando utilizamos uma estatística da coluna para preencher valores ausentes!
 <br>
+***

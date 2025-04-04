@@ -11,6 +11,7 @@ python
 
 !pip install seaborn==0.12.2
 ```
+***
 
 Importando as bibliotecas que serão utilizadas
 ```
@@ -27,6 +28,8 @@ import seaborn as sea
 %matplotlib inline
 ```
 <br>
+
+***
 
 ### Criando os gráficos com Seaborn
 
@@ -125,6 +128,7 @@ out:
 </div>
 
 <br>
+***
 
 Criando gráficos bivariados e univariados na mesma área de plotagem
 ```
@@ -143,6 +147,7 @@ sea.jointplot(data = dados, x = 'total_bill', y = 'tip', kind = 'reg')
 
  Ele retorna um gráfico que diz: Os pontos são a relação entre valor da conta e gorjeta, a linha azul diagonal é o modelo de regressão, a área sombreada entre ela é o intervalo sendo a margem de erro, temos o histograma da variável total_bill e o gráfico de densidade! Tanta coisa em apenas 1 gráfico!
 <br><br>
+***
 
 Criando um gráfico que contém modelos de regressão
 ```
@@ -159,6 +164,7 @@ sea.lmplot(data = dados, x = 'total_bill', y = 'tip', col = 'smoker')
 >Temos a linha de regressão entre total_bill e tip, isso quando, o cliente era fumante ou não (Smoker True ou False)
 
 <br>
+***
 
 Vamos criar um DF vazio
 ```
@@ -188,6 +194,7 @@ out: (30, 2)
 ```
 
 <br>
+***
 
 Visualizando os dados com pandas:
 ```
@@ -252,6 +259,8 @@ out:
 
 <br>
 
+***
+
 ### Gráfico de dispersão
 
 Criando um gráfico de dispersão com um modelo de regressão na mesma área de plotagem
@@ -266,6 +275,8 @@ sea.lmplot(data = df, x = 'idade', y = 'peso', fit_reg = True)
     
     
 <br>
+
+***
 
 ### Gráfico de densidade
 
@@ -283,6 +294,8 @@ sea.kdeplot(df.idade)
     
 <br>
 
+***
+
 ### Gráfico de densidade com histograma
 
 Criando um gráfico de densidade com um histograma na mesma área de plotagem
@@ -296,6 +309,8 @@ sea.distplot(df.peso)
     
     
 <br>
+
+***
 
 ### Histograma
 
@@ -313,6 +328,8 @@ sea.rugplot(df.idade)
     
 <br>
 
+***
+
 ### BoxPlot
 
 Criando um gráfico boxplot
@@ -329,6 +346,8 @@ sea.boxplot(df.idade, color = 'm')
     
 
 
+***
+
 ### Violin Plot
 
 Criando um gráfico Violin
@@ -343,6 +362,8 @@ sea.violinplot(df.peso, color = 'cyan')
     
     
 
+
+***
 
 ### Cluster Map
 

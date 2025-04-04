@@ -117,6 +117,8 @@ out:
 </div>
 
 <br>
+***
+
 
 
 Filtrando as vendas que ocorreram no segmento Home Office OU na região South
@@ -236,6 +238,8 @@ out:
 </div>
 
 <br>
+***
+
 
 Filtrando as vendas que não ocorreram no segmento Home Office e não ocorreram na região South
 
@@ -354,3 +358,5 @@ out:
 </div>
 
 <br>
+***
+

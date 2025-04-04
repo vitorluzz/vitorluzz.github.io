@@ -73,6 +73,8 @@ out:
 </div>
 
 <br>
+***
+
 
 Imprimindo um resumo estatístico do meu DF das colunas do tipo numérico!
 ```
@@ -149,6 +151,8 @@ out:
 </div>
 
 <br>
+***
+
 
 Retornando True para as colunas com valor ausente!
 ```
@@ -222,6 +226,8 @@ out:
 </div>
 
 <br>
+***
+
 
 Olhando uma coluna específica para verificar se há valores ausentes.
 ```
@@ -240,6 +246,8 @@ out:
     Name: Taxa Crescimento, dtype: bool
 ```
 <br>
+***
+
 
 Importando o NumPy para nos auxiliar na manipulação
 ```
@@ -248,6 +256,8 @@ python
 import numpy as np
 ```
 <br>
+***
+
 
 Usando o numpy para preencher uma das colunas do df!
 ```
@@ -322,6 +332,8 @@ out:
 </div>
 
 <br>
+***
+
 
 Agora, verificando se ainda há valores ausentes no DF
 ```
@@ -340,3 +352,5 @@ out:
     Name: Taxa Crescimento, dtype: bool
 ```
 <br>
+***
+

@@ -13,6 +13,10 @@ dados = {
 ```
 <br>
 
+***
+
+
+
 Importando a classe DataFrame de dentro do pandas!
 ```
 python
@@ -21,6 +25,10 @@ from pandas import DataFrame
 ```
 <br>
 
+***
+
+
+
 Convertendo o dicionário python para um DataFrame do Pandas!
 ```
 python
@@ -28,6 +36,10 @@ python
 df = DataFrame(dados)
 ```
 <br>
+
+***
+
+
 
 Fazendo a visualização dos dados, criando um cabeçalho e mostrando as primeiras 5 primeiras linhas
 ```
@@ -98,6 +110,10 @@ Isso é um formato tabular, uma tabela que podemos encontrar em um BD relacional
 
 <br>
 
+***
+
+
+
 
 Verificando o tipo do df
 ```
@@ -110,6 +126,10 @@ out: pandas.core.frame.DataFrame
 ```
 Ele nos diz que é um objeto Dataframe do pandas.
 <br>
+
+***
+
+
 
 Reorganizando a ordem das colunas de forma fácil!
 ```
@@ -178,6 +198,10 @@ out:
 
 <br>
 
+***
+
+
+
 Alterando o nome das palavras do índice!
 ```
 python
@@ -207,6 +231,10 @@ out:
 
 <br>
 
+***
+
+
+
 Retornando os valores do DataFrame
 ```
 python
@@ -223,6 +251,10 @@ array([['Santa Catarina', 2004, 1.5],
            ['Minas Gerais', 2008, 2.7]], dtype=object)
 ```
 <br>
+
+***
+
+
 
 Retornando o tipo de cada coluna
 ```
@@ -243,6 +275,10 @@ Quando o pandas não reconhece o conteúdo, ele classifica o mesmo como String
 
 <br>
 
+***
+
+
+
 Retornando as colunas do DF
 ```
 python
@@ -253,6 +289,10 @@ df2.columns
 out: Index(['Estado', 'Taxa Desemprego', 'Taxa Crescimento', 'Ano'], dtype='object')
 ```
 <br>
+
+***
+
+
 
 Imprimindo apenas uma coluna do DataFrame
 ```
@@ -272,6 +312,10 @@ out:
 ```
 
 <br>
+
+***
+
+
 
 Imprimindo duas colunas do DF
 ```
@@ -337,6 +381,10 @@ Quando eu estou imprimindo apenas 1 coluna, eu utilizo 1 colchete e o nome da co
 Já quando eu imprimir mais de 1 coluna, preciso passar uma lista de colunas para conseguir fazer essa operação.
 <br>
 
+***
+
+
+
 Filtrando uma linha específica do meu DF
 ```
 python
@@ -381,3 +429,7 @@ out:
 </div>
 
 <br>
+
+***
+
+

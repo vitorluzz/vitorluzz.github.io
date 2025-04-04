@@ -4,7 +4,8 @@
 Uma **matriz NumPy** (ou numpy.ndarray) é uma **estrutura de dados multidimensional** otimizada **para armazenar e operar com grandes quantidades de dados numéricos de maneira eficiente.** Ela pertence à biblioteca NumPy, que é amplamente utilizada em computação científica, aprendizado de máquina, análise de dados e muitas outras áreas.
 
 
-ㅤ
+***
+
 
 ㅤ
 Criando uma Matriz com 2 dimensões:
@@ -19,6 +20,7 @@ out: [[1 2 3]
      [4 5 6]]
 ```
 
+***
 
 ㅤ
 
@@ -38,6 +40,7 @@ Ele nos retorna, que é, uma matriz, com 2 dimensões e 3 valores em cada dimens
 
 ㅤ
 
+***
 
 
 Dessa forma, eu crio uma matriz, com 2 dimensões preenchida com o número 1:
@@ -54,6 +57,7 @@ out: [[1. 1. 1.]
 ```
 
 ㅤㅤ
+***
 
 
 Vamos criar uma listas de listas:
@@ -62,6 +66,7 @@ python
 
 lista = [[10,20,30], [90,80,100], [1,2,3]]
 ```
+***
 
 Criando uma array numpy a partir de uma lista de listas:
 ```
@@ -69,6 +74,7 @@ python
 
 arr11 = np.matrix(lista)
 ```
+***
 
 Verificando a forma (shape) desse array criado:
 ```
@@ -84,6 +90,7 @@ Nos retornando que ele tem 3 dimensões, com 3 elementos em cada
 
 
 ㅤㅤ
+***
 
 
 ㅤㅤ
@@ -97,6 +104,7 @@ A indexação por matrizes é um pouco diferente, como vamos manipular uma matri
 
  *[dimensão, elemento]*
 ㅤㅤ
+***
 
 ㅤㅤ
 
@@ -112,6 +120,7 @@ out: [[ 10,  20,  30]
      [  1,   2,   3]]
 ```
 
+***
 
 ㅤㅤ
 
@@ -127,6 +136,7 @@ out: 2
 ```
 
 
+***
 ㅤㅤ
 
 Vamos retornar das linhas de índice 0, até 1 (Porque o índice 2 é EXCLUSIVO), apenas os elementos de índice 2
@@ -141,7 +151,10 @@ out: matrix([[ 30],
 ```
 
 
-ㅤㅤ
+ㅤ
+***
+
+ㅤ
 
 Retornando da linha de índice 1, qualquer valor (todos valores)
 ```
@@ -155,6 +168,9 @@ out: matrix([[ 90,  80, 100]])
 
 
 ㅤ
+***
+
+
 
 #### Manipulando os elementos
 
@@ -164,6 +180,9 @@ Alterando um elemento pelo índice:
 arr11[1,0] = 100 
 ```
 
+
+
+***
 
 
 ㅤ
@@ -183,6 +202,9 @@ out: print(x.dtype, y.dtype, z.dtype)
 ```
 
 ㅤ
+***
+
+
 
 Podemos definir o tipo de um array já na criação:
 ```

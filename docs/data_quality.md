@@ -12,6 +12,8 @@ Pode ser avaliada por:
 - **Cobertura:** Os dados são suficientes?  
 - **Atualidade:** Os dados estão atualizados?  
 
+***
+
 ### Correções Típicas nos Dados  
 - **Limpeza:** Remover dados duplicados, incompletos e inconsistentes  
 - **Padronização:** Converter os dados para um formato comum  
@@ -19,6 +21,8 @@ Pode ser avaliada por:
 - **Correção de Erros:** Ajustes em digitação, espaços desnecessários e caracteres especiais  
 - **Normalização:** Transformação de dados para um formato consistente  
 - **Validação:** Aplicação de regras de negócio para garantir integridade  
+
+***
 
 ### Linhagem de Dados  
 A linhagem de dados documenta o fluxo dos dados, desde a origem até o consumo final, garantindo transparência e rastreabilidade.  

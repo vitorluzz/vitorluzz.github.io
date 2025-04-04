@@ -9,6 +9,7 @@ Aqui é um repositório pessoal onde irei guardar anotações de estudos e infor
 
 Caso queira, entre em contato pelas redes sociais disponíveis aqui e vamos estreitar contato!
 
+***
 <br>
 🇺🇸:
 

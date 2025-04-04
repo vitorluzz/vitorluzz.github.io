@@ -7,7 +7,12 @@ python
 arr23 = np.arange(10)
 arr23
 ```
+
+***
+
+
 <br>
+
 Buscando o elemento de menor valor em um array:
 ```
 python
@@ -18,7 +23,12 @@ arr23.min()
 out: 0
 ```
 
+
+***
+
+
 <br>
+
 
 Buscando o elemento de maior valor em um array:
 ```
@@ -29,7 +39,12 @@ arr23.max()
 ```
 out: 9
 ```
+
+***
+
+
 <br>
+
 
 Atribuindo um valor em cada um dos elementos do array
 ```
@@ -40,7 +55,12 @@ np.array([1,2,3]) + 1.5
 ```
 out: array([2.5, 3.5, 4.5])
 ```
+
+***
+
+
 <br>
+
 
 Criando um array com valores decimais
 ```
@@ -59,7 +79,12 @@ print(arr25)
 ```
 out: array([1., 2., 2., 2., 4., 4.])
 ```
+
+***
+
+
 <br>
+
 
 
 **Flatten**
@@ -83,7 +108,12 @@ arr27
 ```
 out: array([1, 2, 3, 4, 5, 6, 7, 8])
 ```
+
+***
+
+
 <br>
+
 
 Criando um array com 3 elementos
 ```
@@ -91,7 +121,15 @@ python
 
 arr28 = np.array([1,2,3])
 ```
+
+***
+
+
 <br>
+
+
+
+
 
 Repetindo os elementos de um array determinadas vezes
 ```
@@ -102,7 +140,15 @@ np.repeat(arr28, 3)
 ```
 out: array([1, 1, 1, 2, 2, 2, 3, 3, 3])
 ```
+
+***
+
+
 <br>
+
+
+
+
 
 Criando um array:
 ```
@@ -110,6 +156,12 @@ python
 
 arr29 = np.array([5,6])
 ```
+
+
+***
+
+
+
 
 Fazendo a cópia de um array:
 ```
@@ -121,3 +173,6 @@ print(arr30)
 ```
 out: array([5,6])
 ```
+
+***
+

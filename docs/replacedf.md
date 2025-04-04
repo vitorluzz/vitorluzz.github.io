@@ -8,7 +8,7 @@ python
 
 df3['ID_Cliente'] = df3['ID_Cliente'].str.replace('CG', 'AX')
 ```
-
+***
 Visualizando as alterações
 ```
 python

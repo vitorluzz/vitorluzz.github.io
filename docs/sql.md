@@ -34,12 +34,12 @@ A Linguagem SQL consiste em várias instruções, que podem ser agrupadas nas se
     - SAVEPOINT:  cria  um  ponto  de  salvamento  na  transação  atual,  permitindo  que  você reverta para esse ponto, se necessário.
     
     
-
+***
 
 ### SGBD (Sistema Gerenciador de Banco de Dados):
 
 **O que é?** Um  Sistema  Gerenciador  de  Banco  de  Dados  (SGBD)  é  um  software  projetado  para **gerenciar,  armazenar,  manipular  e  consultar  dados  em  um  banco  de  dados.**  SGBDs  são fundamentais  para  o  **gerenciamento  eficiente  e  seguro  de  grandes  quantidades  de  dados**  em aplicações e sistemas de informação.
-
+***
 
 ### Por que a Linguagem SQL é fundamental para profissionais de dados?
 

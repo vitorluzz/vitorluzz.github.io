@@ -14,6 +14,7 @@ out: (9994, 11)
 Ele nos retorna o número de linhas, número de colunas!
 
 <br>
+***
 
 Aplicando um filtro que nos mostra se há a quantidade, 5,7,9 ou 11
 ```
@@ -214,6 +215,7 @@ out:
 </div>
 
 <br>
+***
 
 Aplicando o mesmo filtro, porém, quero ver apenas o formato do retorno, Quantas linhas e colunas
 ```
@@ -225,6 +227,7 @@ df3[ df3['Quantidade'].isin([5,7,9, 11])].shape
 out: (2128, 11)
 ```
 <br>
+***
 
 Aplicando o mesmo filtro, porém, visualizando apenas as 10 primeiras linhas!
 ```

@@ -10,6 +10,9 @@ filename = os.path.join('dataset.csv')
 ```
 
 
+***
+
+
 ㅤ
 
 
@@ -45,6 +48,9 @@ out: sepal_length,sepal_width,petal_length,petal_width,species
      5.1,3.7,1.5,0.4,setosa
      m--More--(14%)
 ```
+
+
+***
 
 
 ㅤ
@@ -90,6 +96,9 @@ out: [[5.1 3.5 1.4 0.2]
 ```
 
 
+***
+
+
 ### Criando um gráfico com NumPy
 >Por mais que o NumPy tenha essa opção, não é a melhor opção para isso, temos ferramentas que são mais dimensionadas para essa tarefa, mas, TUDO DEPENDE!
 
@@ -99,6 +108,9 @@ python
 
 var1, var2 = np.loadtxt(filename, delimiter = ',', usecols = (0,1), skiprows = 1, unpack = True)
 ```
+
+***
+
 
 Criando o gráfico de dispersão para mostrar a relação entre as duas colunas:
 ```

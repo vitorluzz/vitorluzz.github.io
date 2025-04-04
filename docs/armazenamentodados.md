@@ -9,10 +9,15 @@ A escolha do armazenamento depende de fatores como:
 - Qual o volume de dados lidos?
 - Qual a lógica aplicada nesse sistema?
 
+***
+
 ### **SQL vs NoSQL vs Armazenamento de Arquivos**
 - **SQL**: Estruturado, ideal para dados organizados.
 - **NoSQL**: Ideal para Big Data e dados não tabulares.
 - **Armazenamento de Arquivos**: Para vídeos, imagens e outros formatos não relacionais.
+
+***
+
 
 ### **Os 4Vs do Big Data**
 1. **Volume**
@@ -20,7 +25,7 @@ A escolha do armazenamento depende de fatores como:
 3. **Variedade**
 4. **Veracidade**
 
----
+***
 
 ## Tipos de Armazenamento de Dados
 

@@ -14,6 +14,7 @@ query5 = """SELECT Nome_Produto, AVG(Unidades_Vendidas)
             GROUP BY Nome_Produto
             HAVING AVG(Unidades_Vendidas) > 10"""
 ```
+***
 
 Observando essa sintaxe:
         
@@ -50,7 +51,7 @@ df[df['Valor_Unitario'] > 199].groupby('Nome_Produto') \
     Produto_39    16.0
     Name: Unidades_Vendidas, dtype: float64
 
-
+***
 
 Observando essa sintaxe:
 **PROS:**
@@ -64,6 +65,7 @@ Observando essa sintaxe:
 - Linguagem mais complexa exigindo um certo conhecimento de programação.
 
 <br><br>
+***
 
 > **CONCLUSÃO**:
 

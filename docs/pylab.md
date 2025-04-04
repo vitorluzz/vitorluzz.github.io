@@ -38,6 +38,7 @@ axes.set_title('Gráfico de Linha')
 <img src="../assets/e021dce3-8431-4b9e-875a-bc8fb91da286.png" style='width: 550px;'>
     
     
+***
 
 
 ### Gráfico de Linha com 2 figuras
@@ -76,6 +77,8 @@ axes2.set_title('Figura Secundária')
 <img src="../assets/c567329d-2836-4d97-8c06-1629cf49ba8b.png" style='width: 550px;'>
     
 <br>
+***
+
 
 
 ### Gráfico de linha em Paralelo
@@ -107,6 +110,8 @@ fig.tight_layout()
     
     
 <br>
+***
+
 
 ### Gráfico de Linha com diferentes escalas
 
@@ -136,6 +141,8 @@ axes[1].set_title("Escala Logaritmica (y)");
     
     
 <br>
+***
+
 
 ### Gráfico de Linha com Grid
 
@@ -164,6 +171,8 @@ axes[1].grid(color = 'b', alpha=0.7, linestyle = 'dashed', linewidth = 0.8)
     
     
 <br>
+***
+
 
 ### Diferentes Estilos de Plot na mesma Área
 
@@ -201,6 +210,8 @@ axes[3].set_title("fill_between")
     
 
 <br>
+***
+
 
 ### Histogramas
 
@@ -229,6 +240,8 @@ axes[1].set_xlim((min(n), max(n)))
     
     
 <br>
+***
+
 
 ### Gráficos 3D
 
@@ -284,3 +297,5 @@ cb = fig.colorbar(p, shrink=0.5)
 > É um gráfico visualmente atrativo, porém, para a análise do mesmo se torna um pouco mais difícil. Mas para uma apresentação dos dados, é uma boa opção, como foi dito, **TUDO DEPENDE!**    
 
 <br>
+***
+

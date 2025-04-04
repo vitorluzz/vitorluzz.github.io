@@ -3,6 +3,7 @@
 
 >Em POO (Programação Orientada a Objeto), classe é a estrutura que descreve um objeto, contendo valores, atributos e comportamentos.
 >Cada objeto criado a partir da mesma classe terá os mesmos atributos e comportamentos.
+***
 
 Para criar uma Classe, utiliza-se a palavra reservada `class`.
 É uma convenção usar a primeira letra maiúscula em cada palavra no nome da classe!
@@ -32,6 +33,7 @@ python
 meu_livro = Livro("Python para Iniciantes", "1234567890")
 meu_livro.imprime(meu_livro.titulo, meu_livro.isbn)
 ```
+***
 
 ## Herança
 
@@ -58,6 +60,9 @@ meu_ebook = Ebook("Python Avançado", "9876543210", "PDF")
 meu_ebook.imprime(meu_ebook.titulo, meu_ebook.isbn)
 meu_ebook.imprime_formato()
 ```
+
+***
+
 ## Polimorfismo
     
 É o conceito que permite que objetos de diferentes classes possam ser tratados de forma uniforme. Significa que um objeto pode ser tratado como se fosse um objeto de uma superclasse, mesmo que ele seja de uma subclasse.

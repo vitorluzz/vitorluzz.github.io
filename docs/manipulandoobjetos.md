@@ -33,6 +33,7 @@ out: [[[ 1  2  3  4]
        [21 22 23 24]]]
 ```
 
+***
 ㅤ
 
 Vamos saber o número de dimensões de um objeto:
@@ -45,6 +46,7 @@ arr_3d.ndim
 out: 3
 ```
 
+***
 ㅤ
 
 Sabendo a forma (shape) da array:
@@ -59,6 +61,7 @@ out: (2, 3, 4)
 >2 elementos, com 3 linhas e 4 elementos em cada linha.
 
 ㅤ
+***
 
 
 #### 4 Dimensões
@@ -144,6 +147,7 @@ out: [[[[ 1  2  3  4  5]
         [16 17 18 19 20]]]]
 ```
 
+***
 ㅤ
 
 Sabendo o número de dimensões do array:
@@ -156,6 +160,7 @@ arr_4d.ndim
 out: 4
 ```
 
+***
 ㅤ
 
 Sabendo a forma (shape) da array
@@ -176,6 +181,7 @@ out: (2, 3, 4, 5)
 >
 
 
+***
 ㅤ
 
 
@@ -186,7 +192,8 @@ out: (2, 3, 4, 5)
 *[bloco, estrutura, linha, elemento]*
 
 
-ㅤ
+***
+
 
 
 Retornando o elemento, do bloco de índice 0, na estrutura de índice 2, na linha de índice 1, todos os elementos (Como não foi específicado o elemento, ele retorna a linha inteira!)
@@ -199,7 +206,8 @@ arr_4d[0,2,1]
 out: arr_4d[0,2,1,4]
 ```
 
-ㅤ
+***
+
 
 Retornando o elemento de bloco de índice 0, na estrutura de índice 2, na linha de índice 1, o elemento de índice 4
 ```

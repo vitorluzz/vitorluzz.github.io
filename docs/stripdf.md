@@ -22,7 +22,7 @@ A coluna Data pedido tem o formato YYYY-MM-DD. Imagine que seja necessário deix
 Podemos fazer isso com a função lstrit(), ou seja, left strip, (à esquerda).
 
 <br><br>
-
+***
 Vamos remover os dígitos 2 e 0 à esquerda do valor da variável 'Data_Pedido'
 ```
 python

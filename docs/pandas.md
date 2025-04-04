@@ -9,6 +9,8 @@ python
 !pip install --force-reinstall pandas==1.5.3
 ```
 <br>
+***
+
 
 Importando a biblioteca pandas para utilização:
 ```
@@ -17,6 +19,8 @@ python
 import pandas as pd
 ```
 <br>
+***
+
 
 Para sabermos a versão utilizada:
 ```
@@ -30,5 +34,7 @@ out: '1.5.3'
 ```
 
 <br>
+***
+
 
 

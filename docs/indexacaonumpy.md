@@ -16,6 +16,9 @@ out: [10, 21, 32, 43, 48, 15, 76, 57, 89]
 ```
 ㅤ
 
+***
+
+
 Para indexar um array numpy utilizamos os colchetes:
 ```
 python
@@ -26,6 +29,9 @@ arr1[4]
 out: 48
 ```
 ㅤ
+***
+
+
 
 Podemos retornar uma lista com os elementos desejados:
 No exemplo abaixo, o índice 4 não entra pois ele é EXCLUSIVO!
@@ -37,7 +43,8 @@ arr1[1:4]
 ```
 out: array([21, 32, 43])
 ```
-ㅤ
+
+***
 
 Caso queira que o índice 4 entre podemos fazer dessa forma:
 ```
@@ -48,6 +55,7 @@ arr1[1:4+1]
 ```
 out: array([21, 32, 43, 48])
 ```
+***
 ㅤ
 
 Podemos procurar os índices de uma array através de uma lista de índices!
@@ -63,6 +71,8 @@ arr1[indices]
 ```
 out: array([21, 32, 15, 76])
 ```
+
+***
 ㅤ
 
 Podemos fazer uma máscara para verificar se os elementos de um array são pares
@@ -76,6 +86,8 @@ print(mask)
 ```
 out: array([ True, False,  True, False,  True, False,  True, False, False])
 ```
+
+***
 ㅤ
 
 Ou então, passar a máscara como parâmentro do índice!
@@ -87,6 +99,8 @@ arr1[mask]
 ```
 out: array([10, 32, 48, 76])
 ```
+
+***
 ㅤ
 
 Podemos alterar o valor de um elemento por um índice específico
@@ -100,6 +114,7 @@ arr1
 out: array([100,  21,  32,  43,  48,  15,  76,  57,  89])
 ```
 
+***
 
 ㅤ
 
@@ -117,6 +132,7 @@ except:
 out: Erro! Operação não permitida!
 ```
 
+***
 
 ㅤ
 
@@ -130,6 +146,7 @@ arr2 = np.arange(0,50,5)
 out: 0, 5, 10, 15, 20, 25, 30, 35, 40, 45
 ```
 
+***
 
 ㅤ
 
@@ -145,6 +162,7 @@ out: [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
 ```
 
 ㅤ
+***
 
 
 **As arrays tem posições horizontais e verticais.**
@@ -160,6 +178,7 @@ out: [[1. 0. 0.]
      [0. 0. 1.]]
 ```
 
+***
 ㅤ
 
 Podemos definir um array como argumento da função diagonal, e então falar que iremos preencher as diagonais com valores específicos de outro array numpy
@@ -176,6 +195,7 @@ out: [[1 0 0 0]
      [0 0 0 4]]
 ```
 
+***
 ㅤ
 
 Arrays Numpy aceitam diversos valores, como inteiros, floats, strings, booleanos...
@@ -190,6 +210,7 @@ out: [ True, False, False, True]
 ```
 
 
+***
 ㅤ
 
 

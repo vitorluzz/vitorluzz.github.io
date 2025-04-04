@@ -42,8 +42,14 @@ nav:
   -  "📖 Introdução":
       - "👤 Sobre mim": sobre.md
       - "📚 Treinamentos": treinamentos.md
+  - "🔍Ciência de Dados":
+      - "✨ Introdução":
+          - "👣 Primeiro Passo": dadoinformacaoconhecimento.md
+          - "📌 Conceitos básicos": fundamentosdatascience.md
   - "💻 Engenharia de Dados":
-      - "📌 Conceitos básicos": oqeengenharia.md
+      - "✨ Introdução":
+          - "👣 Primeiro Passo": dadoinformacaoconhecimento.md
+          - "📌 Conceitos básicos": oqeengenharia.md
       - "🚀 Pipeline de Dados": pipelinedados.md
       - "💾 Armazenamento de Dados": armazenamentodados.md
       - "🌍 Sistemas Distribuídos": sistemasdistribuidos.md

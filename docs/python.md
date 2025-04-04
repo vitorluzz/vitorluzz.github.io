@@ -10,6 +10,8 @@ print('Primeiro programa')
 ```
 <br>
 <br>
+***
+
 
 ## **TIPOS**
 ### **Tipos Básicos!**
@@ -28,6 +30,8 @@ print('Você é ' + 3 * 'muito ' + 'legal!')  # Concatenação de strings
 
 <br>
 <br>
+***
+
 
 ### **Váriaveis**
 As variáveis armazenam valores e podem ser utilizadas ao longo do código:
@@ -42,6 +46,7 @@ print(a + b)  # Soma dos valores
 ```
 out: 15.2
 ```
+***
 
 ### **Listas**
 
@@ -56,6 +61,7 @@ print(numeros[0])  # Primeiro elemento -> 1
 ```
 out: 1
 ```
+***
 
 Manipulação de listas:
 As listas são coleções ordenadas e mutáveis.
@@ -68,6 +74,8 @@ out: [1,2,3,4,5,6]
 ```
 <br>
 <br>
+***
+
 
 ### **Dicionários**
 
@@ -83,6 +91,7 @@ print(pessoa["nome"])
 out: ["João"]
 ```
 <br>
+***
 
 Adicionando novos valores:
 
@@ -97,6 +106,8 @@ out: {"nome": "João", "idade": 20, "cidade": "São Paulo"}
 ```
 <br>
 <br>
+***
+
 
 ### **Conjuntos**
 
@@ -114,6 +125,8 @@ out: {1,2,3,4,5,6}
 ```
 <br>
 <br>
+***
+
 
 ### **Tuplas**
 
@@ -131,6 +144,8 @@ out: 1
 
 <br>
 <br>
+***
+
 
 ## **Comentários**
 Comentários são trechos de código ignorados pelo interpretador.
@@ -150,6 +165,8 @@ print("Chegou ao Fim!")
 ```
 <br>
 <br>
+***
+
 
 ## **OPERADORES**
 ### **Operadores Aritméticos**
@@ -168,6 +185,8 @@ print(10 % 8)  # Módulo (resto da divisão)
 
 <br>
 <br>
+***
+
 
 ### **Operadores de Comparação**
 
@@ -189,6 +208,8 @@ print(x <= y)  # Menor ou igual a -> False
 
 <br>
 <br>
+***
+
 
 ### **Operadores Lógicos**
 
@@ -207,6 +228,8 @@ print(not cond1)        # NOT -> False
 
 <br>
 <br>
+***
+
 
 ## **CONTROLE**
 ### **Estruturas Condicionais**
@@ -226,6 +249,7 @@ else:
 out: "Maior de idade"
 ```
 <br>
+***
 
 Também podemos usar a estrutura `elif` para múltiplas condições:
 
@@ -248,6 +272,8 @@ out: "Bom"
 
 <br>
 <br>
+***
+
 
 ### **Estruturas de Repetição**
 
@@ -275,6 +301,8 @@ out:    Alpha
 
 <br>
 <br>
+***
+
 
 #### **Loop `while`**
 
@@ -296,6 +324,8 @@ out: 0
 
 <br>
 <br>
+***
+
 
 ## **Funções**
 
@@ -330,6 +360,8 @@ out: 7
 ```
 <br>
 <br>
+***
+
 
 
 ## **Manipulação de Strings**
@@ -349,6 +381,8 @@ out: PYTHON É INCRÍVEL!
 ```
 <br>
 <br>
+***
+
 
 ## **Entrada e Saída**
 
@@ -361,6 +395,8 @@ print(f"Bem-vindo, {nome}!")
 
 <br>
 <br>
+***
+
 
 ## **Tratamento de Exceções**
 

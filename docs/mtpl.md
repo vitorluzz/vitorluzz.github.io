@@ -9,6 +9,7 @@ python
 
 # !pip install matplotlib==3.7.1
 ```
+***
 
 Importando o MatPlotLib para utilização do mesmo
 ```
@@ -28,6 +29,7 @@ python
 
 # !pip install "numpy<2"
 ```
+***
 
 Vamos importar o pacote do pyplot da biblioteca do matplotlib!
 ```
@@ -39,6 +41,8 @@ import matplotlib.pyplot as plt
 ```
 
 <br>
+***
+
 
 ### Gráfico de Linha
 
@@ -56,6 +60,8 @@ plt.show()
 > com apenas 2 linhas de código é possível criar um gráfico de forma prática
     
 <br>
+***
+
 
 Mais um gráfico de linha
 ```
@@ -85,7 +91,10 @@ plt.show()
 <img src="../assets/b3d89811-1f45-4f1c-8a25-96107bc9006c.png" style='width: 550px;'>
 
 
-<br><br>
+
+<br>
+***
+
 
 ### Gráfico de Barras
 
@@ -107,6 +116,8 @@ plt.show()
     
     
 <br>
+***
+
 
 Criando dois gráficos de barras na mesma área de plotagem
 ```
@@ -130,6 +141,8 @@ plt.show()
 >Pode parecer que é apenas 1 gráfico, mas são dois que estão se combinando!
 
 <br>
+***
+
 
 
 
@@ -148,7 +161,11 @@ plt.show()
 
 
 <img src="../assets/11c81c00-67c9-457f-b676-60a0f986d1fd.png" style='width: 550px;'>
-    <br>
+
+<br>
+
+***
+
     
 
 
@@ -168,6 +185,8 @@ plt.show()
 <img src="../assets/11c81c00-67c9-457f-b676-60a0f986d1fd.png" style='width: 550px;'>
     
 <br>
+***
+
 
 
 Criando um gráfico de barras com as barras preenchidas umas com as outras
@@ -183,6 +202,8 @@ plt.show()
 <img src="../assets/066a6327-b135-49c4-9261-bf6c61b87808.png" style='width: 550px;'>
     
 <br>
+***
+
 
 
 >Essa biblioteca nos permite customizar os gráficos com diversas opções!
@@ -210,6 +231,8 @@ plt.show()
 <img src="../assets/77a12be8-1963-44bd-b356-2110ca40aa75.png" style='width: 550px;'>
     
 <br>
+***
+
 
 
 ### Gráfico de Área Empilhada
@@ -247,6 +270,8 @@ plt.show()
     
     
 <br>
+***
+
 
 ### Gráfico de Pizza (Pie Plot)
 
@@ -274,3 +299,5 @@ plt.show()
     
     
 <br>
+***
+

@@ -59,6 +59,7 @@ out:
 </div>
 Nesse caso, o estado4 não se classifica como exclusivo, então, o estado4 entra!
 <br>
+***
 
 Retornando os valores das colunas onde a taxa desemprego for menor que 2
 ```
@@ -119,6 +120,7 @@ out:
 Quando queremos aplicar uma regra de fatiamento, precisamos abrir colchetes 2 vezes!
 
 <br>
+***
 
 Retornando os valores de 2 ou mais colunas!
 ```
