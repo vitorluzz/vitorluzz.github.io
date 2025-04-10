@@ -2224,45 +2224,54 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#4-fazer-o-deploy-com-mkdocs" class="md-nav__link">
+  <a href="#4-adicionando-a-git-ignore" class="md-nav__link">
     <span class="md-ellipsis">
-      4️⃣ Fazer o deploy com MkDocs:
+      4️⃣ Adicionando a Git Ignore:
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#5-adicionar-arquivos-ao-git" class="md-nav__link">
+  <a href="#5-fazer-o-deploy-com-mkdocs" class="md-nav__link">
     <span class="md-ellipsis">
-      5️⃣ Adicionar arquivos ao Git:
+      5️⃣ Fazer o deploy com MkDocs:
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#6-fazer-commit" class="md-nav__link">
+  <a href="#6-adicionar-arquivos-ao-git" class="md-nav__link">
     <span class="md-ellipsis">
-      6️⃣ Fazer commit:
+      6️⃣ Adicionar arquivos ao Git:
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#7-enviar-para-o-repositorio-remoto" class="md-nav__link">
+  <a href="#7-fazer-commit" class="md-nav__link">
     <span class="md-ellipsis">
-      7️⃣ Enviar para o repositório remoto:
+      7️⃣ Fazer commit:
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#8-alterar-a-branch-padrao-no-github" class="md-nav__link">
+  <a href="#8-enviar-para-o-repositorio-remoto" class="md-nav__link">
     <span class="md-ellipsis">
-      8️⃣ Alterar a branch padrão no GitHub:
+      8️⃣ Enviar para o repositório remoto:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-alterar-a-branch-padrao-no-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      9️⃣ Alterar a branch padrão no GitHub:
     </span>
   </a>
   
@@ -2368,45 +2377,54 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#4-fazer-o-deploy-com-mkdocs" class="md-nav__link">
+  <a href="#4-adicionando-a-git-ignore" class="md-nav__link">
     <span class="md-ellipsis">
-      4️⃣ Fazer o deploy com MkDocs:
+      4️⃣ Adicionando a Git Ignore:
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#5-adicionar-arquivos-ao-git" class="md-nav__link">
+  <a href="#5-fazer-o-deploy-com-mkdocs" class="md-nav__link">
     <span class="md-ellipsis">
-      5️⃣ Adicionar arquivos ao Git:
+      5️⃣ Fazer o deploy com MkDocs:
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#6-fazer-commit" class="md-nav__link">
+  <a href="#6-adicionar-arquivos-ao-git" class="md-nav__link">
     <span class="md-ellipsis">
-      6️⃣ Fazer commit:
+      6️⃣ Adicionar arquivos ao Git:
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#7-enviar-para-o-repositorio-remoto" class="md-nav__link">
+  <a href="#7-fazer-commit" class="md-nav__link">
     <span class="md-ellipsis">
-      7️⃣ Enviar para o repositório remoto:
+      7️⃣ Fazer commit:
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#8-alterar-a-branch-padrao-no-github" class="md-nav__link">
+  <a href="#8-enviar-para-o-repositorio-remoto" class="md-nav__link">
     <span class="md-ellipsis">
-      8️⃣ Alterar a branch padrão no GitHub:
+      8️⃣ Enviar para o repositório remoto:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-alterar-a-branch-padrao-no-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      9️⃣ Alterar a branch padrão no GitHub:
     </span>
   </a>
   
@@ -2465,7 +2483,13 @@ git init
 git remote add origin https://github.com/seunome/seunome.github.io.git
 </code></pre>
 <hr />
-<h3 id="4-fazer-o-deploy-com-mkdocs">4️⃣ Fazer o deploy com MkDocs:</h3>
+<h3 id="4-adicionando-a-git-ignore">4️⃣ Adicionando a Git Ignore:</h3>
+<pre><code>bash
+
+curl -o .gitignore https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,pycharm+all
+</code></pre>
+<hr />
+<h3 id="5-fazer-o-deploy-com-mkdocs">5️⃣ Fazer o deploy com MkDocs:</h3>
 <pre><code>bash
 
 mkdocs gh-deploy --force
@@ -2474,19 +2498,19 @@ mkdocs gh-deploy --force
 <p>⚠️ Esse comando gera e publica seu site automaticamente no GitHub Pages!</p>
 </blockquote>
 <hr />
-<h3 id="5-adicionar-arquivos-ao-git">5️⃣ Adicionar arquivos ao Git:</h3>
+<h3 id="6-adicionar-arquivos-ao-git">6️⃣ Adicionar arquivos ao Git:</h3>
 <pre><code>bash
 
 git add .
 </code></pre>
 <hr />
-<h3 id="6-fazer-commit">6️⃣ Fazer commit:</h3>
+<h3 id="7-fazer-commit">7️⃣ Fazer commit:</h3>
 <pre><code>bash
 
 git commit -m &quot;Adicionando meu projeto MkDocs! \o/&quot;
 </code></pre>
 <hr />
-<h3 id="7-enviar-para-o-repositorio-remoto">7️⃣ Enviar para o repositório remoto:</h3>
+<h3 id="8-enviar-para-o-repositorio-remoto">8️⃣ Enviar para o repositório remoto:</h3>
 <pre><code>bash
 
 git push -u origin master
@@ -2495,7 +2519,7 @@ git push -u origin master
 <p>Use <code>-u origin master</code> apenas na primeira vez para vincular a branch.</p>
 </blockquote>
 <hr />
-<h3 id="8-alterar-a-branch-padrao-no-github">8️⃣ Alterar a branch padrão no GitHub:</h3>
+<h3 id="9-alterar-a-branch-padrao-no-github">9️⃣ Alterar a branch padrão no GitHub:</h3>
 <p>1 - Vá em <strong>Settings</strong> do seu repositório.</p>
 <p><img src="../assets/passo1.png" width='1000px' style='border-radius: 0.5rem;'></p>
 <p><br></p>
