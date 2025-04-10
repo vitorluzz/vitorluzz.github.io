@@ -19,7 +19,7 @@ O **dado** é um fato bruto, um elemento isolado sem contexto ou significado ime
 - `Março`  
 - `1000`  
 
-Sozinhos, esses dados não dizem muito. Eles precisam ser organizados e contextualizados para se tornarem úteis.  
+>Sozinhos, esses dados não dizem muito. Eles precisam ser organizados e contextualizados para se tornarem úteis.  
 
 <br>
 ***
@@ -32,7 +32,7 @@ A **informação** surge quando os dados são organizados e interpretados de man
 - **"Março é o mês com maior índice de chuvas"**  
 - **"A empresa teve um faturamento de 1000 reais no último mês"**  
 
-Agora, esses dados têm contexto e podem ser compreendidos de forma mais clara.  
+>Agora, esses dados têm contexto e podem ser compreendidos de forma mais clara.  
 
 <br>
 ***
@@ -45,7 +45,7 @@ O **conhecimento** é o nível mais alto da hierarquia. Ele surge quando a infor
 - **"Como março é o mês com maior índice de chuvas, as cidades devem reforçar o sistema de drenagem."**  
 - **"Se o faturamento da empresa foi 1000 reais e a meta era 5000, é necessário rever a estratégia de vendas."**  
 
-Perceba que o conhecimento utiliza a informação para gerar valor e possibilitar decisões mais inteligentes.  
+>Perceba que o conhecimento utiliza a informação para gerar valor e possibilitar decisões mais inteligentes.  
 
 <br>
 ***
@@ -55,4 +55,4 @@ Perceba que o conhecimento utiliza a informação para gerar valor e possibilita
 - **Informação**: Dados organizados e interpretados para gerar significado.  
 - **Conhecimento**: Uso da informação para tomar decisões e gerar valor.  
 
-Entender essa hierarquia é essencial para empresas, profissionais de tecnologia e qualquer pessoa que queira tomar decisões mais embasadas e estratégicas no dia a dia.  
+>Entender essa hierarquia é essencial para empresas, profissionais de tecnologia e qualquer pessoa que queira tomar decisões mais embasadas e estratégicas no dia a dia.  

@@ -46,6 +46,12 @@ nav:
       - "✨ Introdução":
           - "👣 Primeiro Passo": dadoinformacaoconhecimento.md
           - "📌 Conceitos básicos": fundamentosdatascience.md
+      - "📌 Data Science X Estatística": dsestatistica.md
+      - "💻 Aplicações e Ferramentas": 
+          - "📘 Introdução": introducaoferramentasds.md
+          - "🛠️ Ferramentas":
+              - "Principais Ferramentas": aplicacoesferramentasds.md
+              - "Ferramentas Low-Code (Visualização)": ferramentaslowcodevisualizacao.md
   - "💻 Engenharia de Dados":
       - "✨ Introdução":
           - "👣 Primeiro Passo": dadoinformacaoconhecimento.md
@@ -100,3 +106,10 @@ nav:
           - "Utilizando Python para trabalhar com Linguagem SQL": pythonsql.md
           - "Utilizando o Pandas para trabalhar com Linguagem SQL": pandassql.md
           - "Sintaxe SQL X Sintaxe Pandas": sintaxepysql.md
+  - "🐈‍ Git": git.md
+  - "🧱 MkDocs":
+      - "📘 Introdução": mkdocsintroducao.md
+      - "🛠️ Criando um site com MkDocs Material":
+          "📖 Criando o site": mkdocs_criando.md
+          "✍️ Estilizando o site": mkdocs_estilizando.md
+          "🚀 Publicando o site no GitHub Pages": publicandoprojeto.md
