@@ -28,10 +28,18 @@ bash
 
 git remote add origin https://github.com/seunome/seunome.github.io.git
 ```
+---
+### 4️⃣ Adicionando a Git Ignore:
+
+```
+bash
+
+curl -o .gitignore https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,pycharm+all
+```
 
 ---
 
-### 4️⃣ Fazer o deploy com MkDocs:
+### 5️⃣ Fazer o deploy com MkDocs:
 
 ```
 bash
@@ -43,7 +51,7 @@ mkdocs gh-deploy --force
 
 ---
 
-### 5️⃣ Adicionar arquivos ao Git:
+### 6️⃣ Adicionar arquivos ao Git:
 
 ```
 bash
@@ -53,7 +61,7 @@ git add .
 
 ---
 
-### 6️⃣ Fazer commit:
+### 7️⃣ Fazer commit:
 
 ```
 bash
@@ -63,7 +71,7 @@ git commit -m "Adicionando meu projeto MkDocs! \o/"
 
 ---
 
-### 7️⃣ Enviar para o repositório remoto:
+### 8️⃣ Enviar para o repositório remoto:
 
 ```
 bash
@@ -75,7 +83,7 @@ git push -u origin master
 
 ---
 
-### 8️⃣ Alterar a branch padrão no GitHub:
+### 9️⃣ Alterar a branch padrão no GitHub:
 
 1 - Vá em **Settings** do seu repositório.
 

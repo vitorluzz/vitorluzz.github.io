@@ -58,6 +58,12 @@ git clone <URL-do-repositório>
 
 ---
 
+## 📌 **HACK** - Criando uma GitIgnore para Python
+
+    bash
+    
+    curl -o .gitignore https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,pycharm+all
+---
 ## 📄 Gerenciamento de Arquivos
 
 ```
