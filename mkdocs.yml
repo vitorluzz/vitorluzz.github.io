@@ -47,6 +47,7 @@ nav:
           - "👣 Primeiro Passo": dadoinformacaoconhecimento.md
           - "📌 Conceitos básicos": fundamentosdatascience.md
       - "📌 Data Science X Estatística": dsestatistica.md
+      - "Ciclo de Vida de Projetos": cicloprojetos.md
       - "💻 Aplicações e Ferramentas": 
           - "📘 Introdução": introducaoferramentasds.md
           - "🛠️ Ferramentas":
@@ -64,7 +65,8 @@ nav:
       - "✅ Data Quality": data_quality.md
       - "🛠️ Data Ops / Dev Ops": dataops.md
       - "🔍 Data Observability": dataobservar.md
-      
+  - "🤖 Inteligência Artificial": 
+      - "Introdução": inteligenciaartificial.md
   - "🐍 Python":
       - "📌 Fundamentos Python":
           - "Conceitos Básicos": conceitosbasicospy.md
