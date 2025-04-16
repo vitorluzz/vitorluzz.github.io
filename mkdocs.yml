@@ -66,7 +66,14 @@ nav:
       - "🛠️ Data Ops / Dev Ops": dataops.md
       - "🔍 Data Observability": dataobservar.md
   - "🤖 Inteligência Artificial": 
-      - "Introdução": inteligenciaartificial.md
+      - "Fundamentos da IA": inteligenciaartificial.md
+      - "Machine Learning": machinelearning.md
+      - "Engenharia de IA com Deep Learning e LLMs":
+          - "Fundamentos de Redes Neurais Artificiais": redesneurais.md
+          - "Deep Learning e Revolução em IA": deeplearning.md
+          - "Arquitetura de Transformadores": transformadores.md
+          - "Large Language Models (LLMs)": llms.md
+          - "Retrieval Augmented Generation (RAG)": rag.md
   - "🐍 Python":
       - "📌 Fundamentos Python":
           - "Conceitos Básicos": conceitosbasicospy.md
