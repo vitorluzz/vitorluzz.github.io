@@ -12,6 +12,7 @@
 
 ## 🔍 Ciência de Dados
 - ✅ [**Fundamentos de Data Science e Inteligência Artificial - Data Science Academy**](https://www.datascienceacademy.com.br/path-player?courseid=fundamentos-de-data-science-e-inteligencia-artificial&unit=66bd6436f1588081cb08a019Unit)  
+- ✅ [**Fundamentos de Python para Análise de Dados e Data Science - Data Science Academy**](https://www.datascienceacademy.com.br/cursosgratuitos)  
 ***
 
 ## 🐍 Python  
