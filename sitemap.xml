@@ -2,242 +2,266 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://vitorluzz.github.io/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/agrupandodados/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/analiseestatisticanumpy/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/aplicacoesferramentasds/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/armazenamentodados/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/cicloprojetos/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/combinacaodf/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/combinando/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/comeconumpy/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/conceitosbasicospy/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/dadoinformacaoconhecimento/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/data_quality/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/dataobservar/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/dataops/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
+    </url>
+    <url>
+         <loc>https://vitorluzz.github.io/deeplearning/</loc>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/dsestatistica/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/fatiamentodataframe/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/ferramentaslowcodevisualizacao/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/filtrandostring/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/fundamentosdatascience/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/git/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/graficopandas/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/indexacaonumpy/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/inteligenciaartificial/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/introducaoferramentasds/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
+    </url>
+    <url>
+         <loc>https://vitorluzz.github.io/llms/</loc>
+         <lastmod>2025-04-16</lastmod>
+    </url>
+    <url>
+         <loc>https://vitorluzz.github.io/machinelearning/</loc>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/manipulandoarquivosnumpy/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/manipulandoarrays/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/manipulandodataframe/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/manipulandomatriz/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/manipulandoobjetos/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/mkdocs_criando/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/mkdocs_estilizando/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/mkdocsintroducao/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/modelagemdados/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/mtpl/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/mtpl_sb/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/numpycompandas/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/operacoesmatematicas/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/operadoreslogicos/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/oqeengenharia/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/pandas/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/pandassql/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/pipelinedados/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/poo/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/publicandoprojeto/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/pylab/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/python/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/pythonsql/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/querypandas/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
+    </url>
+    <url>
+         <loc>https://vitorluzz.github.io/rag/</loc>
+         <lastmod>2025-04-16</lastmod>
+    </url>
+    <url>
+         <loc>https://vitorluzz.github.io/redesneurais/</loc>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/replacedf/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/seaborn/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/sintaxepysql/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/sistemasdistribuidos/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/sobre/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/splitstrings/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/sql/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/stripdf/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/tiposbd/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
+    </url>
+    <url>
+         <loc>https://vitorluzz.github.io/transformadores/</loc>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/treinamentos/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/valoresausentes/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
     <url>
          <loc>https://vitorluzz.github.io/verificandoocorrencias/</loc>
-         <lastmod>2025-04-11</lastmod>
+         <lastmod>2025-04-16</lastmod>
     </url>
 </urlset>
