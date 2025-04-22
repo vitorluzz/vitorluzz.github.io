@@ -11,7 +11,7 @@ Existem duas formas de gerar esse arquivo:
 
 ### ✍️ Modo manual (clássico e direto)
 
-```bash
+```bash title='bash'
 pip freeze > requirements.txt
 ```
 

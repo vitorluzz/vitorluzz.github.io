@@ -49,7 +49,7 @@ extra:
         name: GitHub
 
 nav:
-  - "🏠 Home": home/index.md
+  - "🏠 Home": index.md
   -  "📖 Introdução":
       - "👤 Sobre mim": introducao/sobre.md
       - "📚 Treinamentos": introducao/treinamentos.md
