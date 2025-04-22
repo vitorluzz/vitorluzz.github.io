@@ -10,8 +10,9 @@ theme:
   features:
     - header.autohide
     - navigation.footer
-
-
+    - content.code.copy
+    - content.code.annotate
+    - content.code.language
   palette: 
 
     # Palette toggle for light mode
@@ -27,6 +28,16 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+markdown_extensions:
+  - codehilite:
+      guess_lang: false
+  - pymdownx.highlight:
+      linenums: false
+      anchor_linenums: false
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 extra:
     generator: false
     social:
@@ -38,90 +49,91 @@ extra:
         name: GitHub
 
 nav:
-  - "🏠 Home": index.md
+  - "🏠 Home": home/index.md
   -  "📖 Introdução":
-      - "👤 Sobre mim": sobre.md
-      - "📚 Treinamentos": treinamentos.md
+      - "👤 Sobre mim": introducao/sobre.md
+      - "📚 Treinamentos": introducao/treinamentos.md
   - "🔍Ciência de Dados":
       - "✨ Introdução":
-          - "👣 Primeiro Passo": dadoinformacaoconhecimento.md
-          - "📌 Conceitos básicos": fundamentosdatascience.md
-      - "📌 Data Science X Estatística": dsestatistica.md
-      - "Ciclo de Vida de Projetos": cicloprojetos.md
+          - "👣 Primeiro Passo": cienciadados/introducao/dadoinformacaoconhecimento.md
+          - "📌 Conceitos básicos": cienciadados/introducao/fundamentosdatascience.md
+      - "📌 Data Science X Estatística": cienciadados/dsestatistica.md
+      - "Ciclo de Vida de Projetos": cienciadados/cicloprojetos.md
       - "💻 Aplicações e Ferramentas": 
-          - "📘 Introdução": introducaoferramentasds.md
+          - "📘 Introdução": cienciadados/aplicacoeseferramentas/introducaoferramentasds.md
           - "🛠️ Ferramentas":
-              - "Principais Ferramentas": aplicacoesferramentasds.md
-              - "Ferramentas Low-Code (Visualização)": ferramentaslowcodevisualizacao.md
+              - "Principais Ferramentas": cienciadados/aplicacoeseferramentas/ferramentas/aplicacoesferramentasds.md
+              - "Ferramentas Low-Code (Visualização)": cienciadados/aplicacoeseferramentas/ferramentas/ferramentaslowcodevisualizacao.md
   - "💻 Engenharia de Dados":
       - "✨ Introdução":
-          - "👣 Primeiro Passo": dadoinformacaoconhecimento.md
-          - "📌 Conceitos básicos": oqeengenharia.md
-      - "🚀 Pipeline de Dados": pipelinedados.md
-      - "💾 Armazenamento de Dados": armazenamentodados.md
-      - "🌍 Sistemas Distribuídos": sistemasdistribuidos.md
-      - "🏗️ Data Warehouse, Data Lake e Data Lakehouse": tiposbd.md
-      - "📊 Modelagem de Dados": modelagemdados.md
-      - "✅ Data Quality": data_quality.md
-      - "🛠️ Data Ops / Dev Ops": dataops.md
-      - "🔍 Data Observability": dataobservar.md
+          - "👣 Primeiro Passo": engenhariadados/introducao/dadoinformacaoconhecimento.md
+          - "📌 Conceitos básicos": engenhariadados/introducao/oqeengenharia.md
+      - "🚀 Pipeline de Dados": engenhariadados/pipelinedados.md
+      - "💾 Armazenamento de Dados": engenhariadados/armazenamentodados.md
+      - "🌍 Sistemas Distribuídos": engenhariadados/sistemasdistribuidos.md
+      - "🏗️ Data Warehouse, Data Lake e Data Lakehouse": engenhariadados/tiposbd.md
+      - "📊 Modelagem de Dados": engenhariadados/modelagemdados.md
+      - "✅ Data Quality": engenhariadados/data_quality.md
+      - "🛠️ Data Ops / Dev Ops": engenhariadados/dataops.md
+      - "🔍 Data Observability": engenhariadados/dataobservar.md
   - "🤖 Inteligência Artificial": 
-      - "Fundamentos da IA": inteligenciaartificial.md
-      - "Machine Learning": machinelearning.md
+      - "Fundamentos da IA": inteligenciaartificial/inteligenciaartificial.md
+      - "Machine Learning": inteligenciaartificial/machinelearning.md
       - "Engenharia de IA com Deep Learning e LLMs":
-          - "Fundamentos de Redes Neurais Artificiais": redesneurais.md
-          - "Deep Learning e Revolução em IA": deeplearning.md
-          - "Arquitetura de Transformadores": transformadores.md
-          - "Large Language Models (LLMs)": llms.md
-          - "Retrieval Augmented Generation (RAG)": rag.md
+          - "Fundamentos de Redes Neurais Artificiais": inteligenciaartificial/engenharia/redesneurais.md
+          - "Deep Learning e Revolução em IA": inteligenciaartificial/engenharia/deeplearning.md
+          - "Arquitetura de Transformadores": inteligenciaartificial/engenharia/transformadores.md
+          - "Large Language Models (LLMs)": inteligenciaartificial/engenharia/llms.md
+          - "Retrieval Augmented Generation (RAG)": inteligenciaartificial/engenharia/rag.md
   - "🐍 Python":
       - "📌 Fundamentos Python":
-          - "Conceitos Básicos": conceitosbasicospy.md
-          - "Primeiros Passos": python.md
-      - "📦 Orientação a Objeto (POO)": poo.md
+          - "Conceitos Básicos": python/fundamentospy/conceitosbasicospy.md
+          - "Primeiros Passos": python/fundamentospy/python.md
+      - "📦 Orientação a Objeto (POO)": python/poo.md
       - "🔢 Numpy": 
-          - "Primeiros Passos": comeconumpy.md
-          - "Indexação em Arrays": indexacaonumpy.md
-          - "Manipulando Matrizes": manipulandomatriz.md
-          - "Manipulando Objetos 3D e 4D": manipulandoobjetos.md
-          - "Manipulando Arquivos": manipulandoarquivosnumpy.md
-          - "Análise Estatística": analiseestatisticanumpy.md
-          - "Operações Matemáticas": operacoesmatematicas.md
-          - "Manipulação Arrays": manipulandoarrays.md
+          - "Primeiros Passos": python/numpy/comeconumpy.md
+          - "Indexação em Arrays": python/numpy/indexacaonumpy.md
+          - "Manipulando Matrizes": python/numpy/manipulandomatriz.md
+          - "Manipulando Objetos 3D e 4D": python/numpy/manipulandoobjetos.md
+          - "Manipulando Arquivos": python/numpy/manipulandoarquivosnumpy.md
+          - "Análise Estatística": python/numpy/analiseestatisticanumpy.md
+          - "Operações Matemáticas": python/numpy/operacoesmatematicas.md
+          - "Manipulação Arrays": python/numpy/manipulandoarrays.md
       - "📊 Pandas": 
-          - "Primeiros Passos": pandas.md
-          - "Manipulando DataFrames": manipulandodataframe.md
-          - "Utilizando NumPy com Pandas": numpycompandas.md
-          - "Fatiamento de DataFrame (Slicing)": fatiamentodataframe.md
-          - "Manipulando Valores Ausentes": valoresausentes.md
-          - "Query's em DataFrame Pandas": querypandas.md
-          - "Verificando Ocorrências de Valores": verificandoocorrencias.md
-          - "Operadores Lógicos": operadoreslogicos.md
-          - "Agrupamento de Dados com GroupBy": agrupandodados.md
-          - "Filtrando com Strings": filtrandostring.md
-          - "Slipt de Strings": splitstrings.md
-          - "Strip em DFs": stripdf.md
-          - "Replace de Strings": replacedf.md
-          - "Combinação de Strings": combinacaodf.md
-          - "Construção de Gráficos com Pandas": graficopandas.md
+          - "Primeiros Passos": python/pandas/pandas.md
+          - "Manipulando DataFrames": python/pandas/manipulandodataframe.md
+          - "Utilizando NumPy com Pandas": python/pandas/numpycompandas.md
+          - "Fatiamento de DataFrame (Slicing)": python/pandas/fatiamentodataframe.md
+          - "Manipulando Valores Ausentes": python/pandas/valoresausentes.md
+          - "Query's em DataFrame Pandas": python/pandas/querypandas.md
+          - "Verificando Ocorrências de Valores": python/pandas/verificandoocorrencias.md
+          - "Operadores Lógicos": python/pandas/operadoreslogicos.md
+          - "Agrupamento de Dados com GroupBy": python/pandas/agrupandodados.md
+          - "Filtrando com Strings": python/pandas/filtrandostring.md
+          - "Slipt de Strings": python/pandas/splitstrings.md
+          - "Strip em DFs": python/pandas/stripdf.md
+          - "Replace de Strings": python/pandas/replacedf.md
+          - "Combinação de Strings": python/pandas/combinacaodf.md
+          - "Construção de Gráficos com Pandas": python/pandas/graficopandas.md
       - "📈 MatPlotLib e SeaBorn": 
-          - "Por que utilizar?": mtpl_sb.md
-          - "MatPlotLib": mtpl.md
-          - "PyLab": pylab.md
-          - "SeaBorn": seaborn.md
-          - "Combinando MTPL, SB, PD, NP na criação de gráficos": combinando.md
+          - "Por que utilizar?": python/mtplesb/mtpl_sb.md
+          - "MatPlotLib": python/mtplesb/mtpl.md
+          - "PyLab": python/mtplesb/pylab.md
+          - "SeaBorn": python/mtplesb/seaborn.md
+          - "Combinando MTPL, SB, PD, NP na criação de gráficos": python/mtplesb/combinando.md
       - "🔍 SQL":
-          - "Conceitos básicos": sql.md
-          - "Utilizando Python para trabalhar com Linguagem SQL": pythonsql.md
-          - "Utilizando o Pandas para trabalhar com Linguagem SQL": pandassql.md
-          - "Sintaxe SQL X Sintaxe Pandas": sintaxepysql.md
+          - "Conceitos básicos": python/sqlpy/sql.md
+          - "Utilizando Python para trabalhar com Linguagem SQL": python/sqlpy/pythonsql.md
+          - "Utilizando o Pandas para trabalhar com Linguagem SQL": python/sqlpy/pandassql.md
+          - "Sintaxe SQL X Sintaxe Pandas": python/sqlpy/sintaxepysql.md
+      - "⭐ HACKS": python/hackspy.md
   - "📊 Microsoft Power BI": 
-          - "📌 Introdução": introducaopbi.md
-  - "🐈‍ Git": git.md
-  - "📦 DataBricks": databricks.md
+          - "📌 Introdução": powerbi/introducaopbi.md
+  - "🐈‍ Git": git/git.md
+  - "📦 DataBricks": databricks/databricks.md
   - "🧱 MkDocs":
-      - "📘 Introdução": mkdocsintroducao.md
+      - "📘 Introdução": mkdocs/mkdocsintroducao.md
       - "🛠️ Criando um site com MkDocs Material":
-          "📖 Criando o site": mkdocs_criando.md
-          "✍️ Estilizando o site": mkdocs_estilizando.md
-          "🚀 Publicando o site no GitHub Pages": publicandoprojeto.md
+          "📖 Criando o site": mkdocs/criandoprojeto/mkdocs_criando.md
+          "✍️ Estilizando o site": mkdocs/criandoprojeto/mkdocs_estilizando.md
+          "🚀 Publicando o site no GitHub Pages": mkdocs/criandoprojeto/publicandoprojeto.md
