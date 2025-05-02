@@ -86,3 +86,5 @@ Essas técnicas ajudam a criar **modelos preditivos** e a comunicar insights út
 
 Com o Power BI, usuários técnicos e não técnicos conseguem acessar dados importantes para a tomada de decisão — tudo em um ambiente amigável e visual.
 
+
+---

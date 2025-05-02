@@ -129,6 +129,16 @@ nav:
       - "⭐ HACKS": python/hackspy.md
   - "📊 Microsoft Power BI": 
           - "📌 Introdução": powerbi/introducaopbi.md
+          - "🧠 Conceitos Básicos": powerbi/conceitosbasicos.md
+          - "🧱 Modelagem de Dados": powerbi/modelagemdados.md
+          - "📈 Análise de Dados":
+              - "em Marketing": powerbi/analisedados/analisedadosmarketing.md
+              - "no Comercial": powerbi/analisedados/analisedadoscomerciais.md
+              - "em Recursos Humanos": powerbi/analisedados/analisedadosrecursoshumanos.md
+              - "em Logística": powerbi/analisedados/analisedadoslogistica.md
+              - "no Financeiro": powerbi/analisedados/analisedadosfinanceiro.md
+              - "em Contábeis": powerbi/analisedados/analisedadoscontabeis.md
+              - "no Mercado de Ações": powerbi/analisedados/analisedadosmercadoacoes.md
   - "🐈‍ Git": git/git.md
   - "📦 DataBricks": databricks/databricks.md
   - "🧱 MkDocs":
