@@ -54,11 +54,24 @@ nav:
       - "👤 Sobre mim": introducao/sobre.md
       - "📚 Treinamentos": introducao/treinamentos.md
   - "🔍Ciência de Dados":
-      - "✨ Introdução":
-          - "👣 Primeiro Passo": cienciadados/introducao/dadoinformacaoconhecimento.md
-          - "📌 Conceitos básicos": cienciadados/introducao/fundamentosdatascience.md
-      - "📌 Data Science X Estatística": cienciadados/dsestatistica.md
-      - "Ciclo de Vida de Projetos": cienciadados/cicloprojetos.md
+      - "👣 Conceitos Básicos": cienciadados/dadoinformacaoconhecimento.md
+      - "📌 Introdução à Ciência de Dados": cienciadados/fundamentosdatascience.md
+      - "🧠 Fundamentos Essenciais": cienciadados/fundamentosds.md
+      - "🔐 Privacidade em Data Science": cienciadados/privacidade.md
+      - "🧭 Etapas de um Projeto de Ciência de Dados": cienciadados/etapasprojetodados.md
+      - "⚖️ Data Science vs Estatística": 
+          - "📊 Definindo Estatística": cienciadados/dsestatistica.md
+          - "🧩 Fundamentos Estatísticos": 
+              - "📚 Principais Conceitos Estatísticos": cienciadados/estatistica.md
+              - "👥 Amostra": cienciadados/estatistica/#amostra
+              - "🔗 Correlação e Regressão": cienciadados/estatistica/#correlacao-e-regressao
+              - "📏 Parâmetros e Estatísticas": cienciadados/estatistica/#parametros-x-estatisticas
+              - "📂 Dados Primários X Dados Secundários": cienciadados/estatistica/#dados-primarios-x-dados-secundarios
+              - "🧾 Observações X Variáveis": cienciadados/estatistica/#observacoes-x-variaveis
+              - "🔣 Tipos de Variáveis": cienciadados/estatistica/#tipos-de-variaveis
+              - "🎲 Teoria da Probabilidade": cienciadados/estatistica/#teoria-da-probabilidade
+          - "🔗 Relação entre Estatística e Ciência de Dados": cienciadados/estatiscaxds.md
+      - "♻️ Ciclo de Vida de Projetos": cienciadados/cicloprojetos.md
       - "💻 Aplicações e Ferramentas": 
           - "📘 Introdução": cienciadados/aplicacoeseferramentas/introducaoferramentasds.md
           - "🛠️ Ferramentas":
@@ -129,8 +142,14 @@ nav:
       - "⭐ HACKS": python/hackspy.md
   - "📊 Microsoft Power BI": 
           - "📌 Introdução": powerbi/introducaopbi.md
-          - "🧠 Conceitos Básicos": powerbi/conceitosbasicos.md
+          - "📥 Importação dos Dados": powerbi/conceitosbasicos.md
+          - "📊 Visualizações":
+              - "Visualizações Básicas": powerbi/visualizacoesbasicas.md
+              - "Visualizações Avançadas": powerbi/visualizacoesavancadas.md
+          - "🎛️ Filtros, Segmentações e Estilo": powerbi/filtrossegmentacoesestilo.md
+          - "🧼 Tratamento e Enriquecimento de Dados": powerbi/tratamentoenriquecimento.md
           - "🧱 Modelagem de Dados": powerbi/modelagemdados.md
+          - "📅 Time Intelligence": powerbi/timeintelligence.md
           - "📈 Análise de Dados":
               - "em Marketing": powerbi/analisedados/analisedadosmarketing.md
               - "no Comercial": powerbi/analisedados/analisedadoscomerciais.md
@@ -139,6 +158,9 @@ nav:
               - "no Financeiro": powerbi/analisedados/analisedadosfinanceiro.md
               - "em Contábeis": powerbi/analisedados/analisedadoscontabeis.md
               - "no Mercado de Ações": powerbi/analisedados/analisedadosmercadoacoes.md
+          - " 📐 Análises Estatísticas e Exploratórias": 
+                - "Análise Estatística": powerbi/analisedados/analisedadosestatistica.md
+                - "Análise Exploratória": powerbi/analisedados/analisedadosexploratoria.md
   - "🐈‍ Git": git/git.md
   - "📦 DataBricks": databricks/databricks.md
   - "🧱 MkDocs":
