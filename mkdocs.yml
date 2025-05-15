@@ -57,6 +57,7 @@ nav:
       - "👣 Conceitos Básicos": cienciadados/dadoinformacaoconhecimento.md
       - "📌 Introdução à Ciência de Dados": cienciadados/fundamentosdatascience.md
       - "🧠 Fundamentos Essenciais": cienciadados/fundamentosds.md
+      - "🧱 Engenharia de Atributos": cienciadados/engenhariaatributos.md
       - "🔐 Privacidade em Data Science": cienciadados/privacidade.md
       - "🧭 Etapas de um Projeto de Ciência de Dados": cienciadados/etapasprojetodados.md
       - "⚖️ Data Science vs Estatística": 
@@ -161,6 +162,7 @@ nav:
           - " 📐 Análises Estatísticas e Exploratórias": 
                 - "Análise Estatística": powerbi/analisedados/analisedadosestatistica.md
                 - "Análise Exploratória": powerbi/analisedados/analisedadosexploratoria.md
+          - "🗃️ Manipulação de Dados (Engenharia de Atributos)": powerbi/manipulacaodadosbi.md
   - "🐈‍ Git": git/git.md
   - "📦 DataBricks": databricks/databricks.md
   - "🧱 MkDocs":
