@@ -99,6 +99,9 @@ nav:
           - "Arquitetura de Transformadores": inteligenciaartificial/engenharia/transformadores.md
           - "Large Language Models (LLMs)": inteligenciaartificial/engenharia/llms.md
           - "Retrieval Augmented Generation (RAG)": inteligenciaartificial/engenharia/rag.md
+  - "🛢️ SQL":
+      - "📌 Introdução": sql/sql.md
+      - "💡 Importância do SQL para Profissionais de Dados": sql/importancia.md 
   - "🐍 Python":
       - "📌 Fundamentos Python":
           - "Conceitos Básicos": python/fundamentospy/conceitosbasicospy.md
@@ -135,8 +138,7 @@ nav:
           - "PyLab": python/mtplesb/pylab.md
           - "SeaBorn": python/mtplesb/seaborn.md
           - "Combinando MTPL, SB, PD, NP na criação de gráficos": python/mtplesb/combinando.md
-      - "🔍 SQL":
-          - "Conceitos básicos": python/sqlpy/sql.md
+      - "🔍 SQL X Python":
           - "Utilizando Python para trabalhar com Linguagem SQL": python/sqlpy/pythonsql.md
           - "Utilizando o Pandas para trabalhar com Linguagem SQL": python/sqlpy/pandassql.md
           - "Sintaxe SQL X Sintaxe Pandas": python/sqlpy/sintaxepysql.md
@@ -163,6 +165,9 @@ nav:
                 - "Análise Estatística": powerbi/analisedados/analisedadosestatistica.md
                 - "Análise Exploratória": powerbi/analisedados/analisedadosexploratoria.md
           - "🗃️ Manipulação de Dados (Engenharia de Atributos)": powerbi/manipulacaodadosbi.md
+          - "🛢️ Power BI e Bancos de Dados": powerbi/introducaobd.md
+         
+
   - "🐈‍ Git": git/git.md
   - "📦 DataBricks": databricks/databricks.md
   - "🧱 MkDocs":
