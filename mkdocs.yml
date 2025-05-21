@@ -102,6 +102,15 @@ nav:
   - "🛢️ SQL":
       - "📌 Introdução": sql/sql.md
       - "💡 Importância do SQL para Profissionais de Dados": sql/importancia.md 
+      - "🧠 SQL Analytics": sql/sqlanalytics.md
+      - "🧾 Comandos SQL":
+          - "📖 Introdução": sql/comandossql.md
+          - "✍️ Comandos DML - Manipulação de Dados": sql/comandosdml.md
+          - "📊 Funções de Agregação": sql/funcaoagregacao.md
+          - "🗂️ Agrupamento de Dados (GROUP BY)": sql/agrupar.md
+          - "🔗 Junção entre Tabelas (JOIN)": sql/juncao.md
+          - "🛠️ Inserção, Atualização e Exclusão de Dados": sql/insercaoatualizacaoexclusao.md
+          - "⭐ Ordem dos Comandos SQL": sql/   
   - "🐍 Python":
       - "📌 Fundamentos Python":
           - "Conceitos Básicos": python/fundamentospy/conceitosbasicospy.md
@@ -166,8 +175,15 @@ nav:
                 - "Análise Exploratória": powerbi/analisedados/analisedadosexploratoria.md
           - "🗃️ Manipulação de Dados (Engenharia de Atributos)": powerbi/manipulacaodadosbi.md
           - "🛢️ Power BI e Bancos de Dados": powerbi/introducaobd.md
-         
+          - "🤖 Power BI e Machine Learning":
+                - "📌 Introdução": powerbi/pbiintroducaoml.md
+                - "ML Para Segmentação de Clientes": powerbi/mlsegmentacaoclientes.md
+                - "ML Para Detecção de Anomalias": powerbi/deteccaodeanomalias.md
 
+  - "🧮 Linguagem R":
+      - "📌 Introdução": r/introducao.md
+      - "🤖 Machine Learning":
+        - "🧠 Detecção de Anomalias": r/modelo-ml-anomalias.md
   - "🐈‍ Git": git/git.md
   - "📦 DataBricks": databricks/databricks.md
   - "🧱 MkDocs":
