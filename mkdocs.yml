@@ -99,6 +99,11 @@ nav:
           - "Arquitetura de Transformadores": inteligenciaartificial/engenharia/transformadores.md
           - "Large Language Models (LLMs)": inteligenciaartificial/engenharia/llms.md
           - "Retrieval Augmented Generation (RAG)": inteligenciaartificial/engenharia/rag.md
+  - "🧠 HACKS":
+      - "📌 Introdução": hacks/introducaohacks.md
+      - "🐍⭐ Python Hacks": hacks/pythonhacks.md
+      - "🐈⭐ Git Hacks": hacks/githacks.md
+      - "⚙️⭐ WSL Hacks": hacks/wslhacks.md
   - "🛢️ SQL":
       - "📌 Introdução": sql/sql.md
       - "💡 Importância do SQL para Profissionais de Dados": sql/importancia.md 
@@ -151,7 +156,6 @@ nav:
           - "Utilizando Python para trabalhar com Linguagem SQL": python/sqlpy/pythonsql.md
           - "Utilizando o Pandas para trabalhar com Linguagem SQL": python/sqlpy/pandassql.md
           - "Sintaxe SQL X Sintaxe Pandas": python/sqlpy/sintaxepysql.md
-      - "⭐ HACKS": python/hackspy.md
   - "📊 Microsoft Power BI": 
           - "📌 Introdução": powerbi/introducaopbi.md
           - "📥 Importação dos Dados": powerbi/conceitosbasicos.md
